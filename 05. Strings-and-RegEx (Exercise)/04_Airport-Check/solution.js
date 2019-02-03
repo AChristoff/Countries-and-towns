@@ -7,7 +7,7 @@ function solve() {
     let command = input.pop();
     input = input.toString();
 
-    let nameValidator = /(?<=\s)([A-Z][A-Za-z]*)-([A-Z][A-Za-z]*)(?=\s)|(\s([A-Z][A-Za-z]*)-([A-Z][A-Za-z]*)\.-([A-Z][A-Za-z]*)(?=\s))/g;
+    let nameValidator = /(?<=\s)([A-Z][A-Za-z]*)-([A-Z][A-Za-z]*)(?=\s)|((?<=\s)([A-Z][A-Za-z]*)-([A-Z][A-Za-z]*)\.-([A-Z][A-Za-z]*)(?=\s))/g;
     let airportValidator = /(?<=\s)([A-Z]{3})\/([A-Z]{3})(?=\s)/g;
     let flightValidator = /(?<=\s)([A-Z]{1,3})(\d{1,5})(?=\s)/g;
     let companyValidator = /(?<=-\s)([A-Z][A-Za-z]*)\*([A-Z][A-Za-z]*)(?=\s)/g;
