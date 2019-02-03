@@ -5,7 +5,7 @@ function solve() {
     let output = document.querySelector('#result');
     let key = input.shift();
 
-    let keyFinder = new RegExp(`((?<=(\\s)${key})|(?<=^${key}))\\s+([A-Z!%$#]+)([\\s.,]|$)`, 'gi');
+    let keyFinder = new RegExp(`((?<=(\\s)${key})|(?<=^${key}))\\s+([A-Z!%$#]{8,})([\\s.,]|$)`, 'gi');
     let caseChecher = /[a-z]+/g;
 
     let result;
