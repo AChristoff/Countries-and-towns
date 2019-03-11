@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sections</title>
+    <style>
+        #content {
+            width: 1000px;
+        }
+
+        #content div {
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin: 2em;
+            background: #5555ff;
+            text-align: center;
+        }
+
+        #content div p {
+            color: white;
+            margin: 6em 3em 6em 3em;
+        }
+    </style>
+</head>
+<div id="content">
+</div>
+<body onload="create(['Section 1', 'Section 2', 'Section 3', 'Section 4']);">
+<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script>
+    function create(sentences) {
+        let content = $('#content');
+        for (let sentence of sentences) {
+            let div = $('<div>');
+            let p = $('<p>');
+            p.text(sentence);
+            p.css('display', 'none');
+            p.appendTo(div);
+            div.appendTo(content);
+            div.on('click', () => {
+                if (p.css('display') === 'none') {
+                    p.css('display', 'block');
+                } else {
+                    p.css('display', 'none');
+                }
+            })
+        }
+    }
+</script>
+
+</body>
+</html>
