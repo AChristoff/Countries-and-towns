@@ -72,7 +72,7 @@ class Vacation {
         }
     }
 
-    numberOfChildren() {
+    get numberOfChildren() {
         return this.kidsCounter;
     }
 }
