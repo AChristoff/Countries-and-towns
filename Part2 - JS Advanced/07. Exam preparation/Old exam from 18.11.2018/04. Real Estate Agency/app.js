@@ -53,7 +53,9 @@ function realEstateAgency() {
 
                 function isTaken(offerIndex) {
                     if (isNaN(+prices[offerIndex])) {
-                        return isTaken(offerIndex+1)
+                        if (offerIndex < offers.length) {
+                            return isTaken(offerIndex+1)
+                        }
                     }
                     return offerIndex;
                 }
