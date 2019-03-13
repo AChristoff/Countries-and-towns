@@ -6,19 +6,10 @@ class Vacation {
         this.kids = {};
         this.kidsCounter = 0;
 
-        Array.prototype.findString = function (array, searched) {
-            for (let string of array) {
-                if (string.includes(searched)) {
-                    return true
-                }
-            }
-            return false
-        };
-
-        Array.prototype.findIndex = function (array, searched) {
+        Array.prototype.findIndex = function (searched) {
             let result = [];
-            for (let i = 0; i < array.length; i++) {
-                if (array[i].includes(searched)) {
+            for (let i = 0; i < this.length; i++) {
+                if (this[i].includes(searched)) {
                     result.push(i)
                 }
             }
@@ -29,7 +20,7 @@ class Vacation {
     registerChild(name, grade, budget) {
         if (this.budget <= budget) {
             this.kids[grade] = this.kids[grade] || [];
-            if (!this.kids[grade].findString(this.kids[grade], name)) {
+            if (!this.kids[grade].find((x) => x.includes(name))) {
                 this.kids[grade].push(`${name}-${budget}`);
                 this.kidsCounter++;
                 return this.kids[grade];
@@ -42,9 +33,9 @@ class Vacation {
     }
 
     removeChild(name, grade) {
-        if (this.kids[grade] && this.kids[grade].findString(this.kids[grade], name)) {
-            let indexToRemove = this.kids[grade].findIndex(this.kids[grade], 'Lilly')[0];
-            this.kids[grade].splice(indexToRemove, 1);
+        if (this.kids[grade] && this.kids[grade].find((x) => x.includes(name))) {
+            let kidForRemoval = this.kids[grade].findIndex('Lilly')[0];
+            this.kids[grade].splice(kidForRemoval, 1);
             this.kidsCounter--;
             return this.kids[grade]
         } else {
