@@ -52,10 +52,8 @@ function realEstateAgency() {
             for (let i = 0; i < offers.length; i++) {
 
                 function isTaken(offerIndex) {
-                    if (isNaN(+prices[offerIndex])) {
-                        if (offerIndex < offers.length) {
+                    if (isNaN(+prices[offerIndex]) && offerIndex < offers.length) {
                             return isTaken(offerIndex+1)
-                        }
                     }
                     return offerIndex;
                 }
