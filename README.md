@@ -1,6 +1,6 @@
 # JS-Core
 
-Part1 - JS Fundamentals
+Part1 - JS Essentials
 
 1 JAVASCRIPT SYNTAX AND OPERATORS | 
 2 DOCUMENT OBJECT MODEL | 
