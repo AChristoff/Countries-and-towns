@@ -32,7 +32,7 @@ class Kitchen {
     showTheMenu() {
         let printedMenu = [];
         let meals = Object.entries(this.menu);
-        if (!Object.entries(this.menu).length) {
+        if (!meals.length) {
             return 'Our menu is not ready yet, please come later...'
         } else {
             meals.forEach((meal) => printedMenu.push(`${meal[0]} - $ ${meal[1].price}\n`));
