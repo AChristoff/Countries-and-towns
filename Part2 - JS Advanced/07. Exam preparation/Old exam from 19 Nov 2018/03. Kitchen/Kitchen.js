@@ -25,7 +25,7 @@ class Kitchen {
             this.menu[meal] = {products, price};
             return `Great idea! Now with the ${meal} we have ${Object.keys(this.menu).length} meals in the menu, other ideas?`;
         } else {
-            return `The ${meal} is already in the our menu, try something different.`;
+            return `${meal} is already in our menu, try something different.`;
         }
     }
 
