@@ -31,14 +31,12 @@ class Kitchen {
 
     showTheMenu() {
         let printedMenu = [];
-        let menu = Object.entries(this.menu);
-        if (menu.length) {
-            menu.forEach(meal => {
-                printedMenu.push(`${meal[0]} - $ ${meal[1].price}\n`);
-            });
-            return printedMenu.join('');
+        let meals = Object.entries(this.menu);
+        if (!Object.entries(this.menu).length) {
+            return 'Our menu is not ready yet, please come later...'
         } else {
-            return 'Our menu is not ready yet, please come later...';
+            meals.forEach((meal) => printedMenu.push(`${meal[0]} - $ ${meal[1].price}\n`));
+            return printedMenu.join('');
         }
     }
 
