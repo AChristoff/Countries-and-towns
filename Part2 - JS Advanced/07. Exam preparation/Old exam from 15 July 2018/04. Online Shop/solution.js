@@ -50,17 +50,9 @@ function onlineShop(selector) {
     function addProduct() {
         let li = $(`<li>Product: ${product.val()} Price: ${price.val()} Quantity: ${quantity.val()}</li>`);
         li.appendTo(inventory);
-        recordAndDisplayQty();
-        recordAndDisplayPrice();
-    }
 
-    function recordAndDisplayQty() {
-        usedCapacity.val(Number(usedCapacity.val()) + Number(quantity.val()))
-    }
-
-    function recordAndDisplayPrice() {
-        let sum = Number(priceSum.val()) + Number(price.val());
-        priceSum.val(sum)
+        usedCapacity.val(Number(usedCapacity.val()) + Number(quantity.val()));
+        priceSum.val(Number(priceSum.val()) + Number(price.val()));
     }
 
     function reset() {
