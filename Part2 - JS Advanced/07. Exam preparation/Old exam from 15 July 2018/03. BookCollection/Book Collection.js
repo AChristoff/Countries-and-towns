@@ -4,6 +4,7 @@ class BookCollection {
         this.shelfGenre = shelfGenre;
         this.shelfCapacity = shelfCapacity;
         this.shelf = [];
+
         return this;
     }
 
