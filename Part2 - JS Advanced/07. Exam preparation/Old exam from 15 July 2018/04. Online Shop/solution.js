@@ -27,7 +27,7 @@ function onlineShop(selector) {
     let submitBtn = $('#submit');
     let inventory = $('.display');
     let usedCapacity = $('#capacity');
-    let sum = $('#sum');
+    let priceSum = $('#sum');
 
     product.on('input', () => {
         let isEmpty = product.val() === '';
@@ -59,8 +59,8 @@ function onlineShop(selector) {
     }
 
     function recordAndDisplayPrice() {
-        let priceSum = Number(sum.val()) + Number(price.val());
-        sum.val(priceSum)
+        let sum = Number(priceSum.val()) + Number(price.val());
+        priceSum.val(sum)
     }
 
     function reset() {
