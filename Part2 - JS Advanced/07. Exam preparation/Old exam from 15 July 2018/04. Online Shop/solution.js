@@ -26,7 +26,7 @@ function onlineShop(selector) {
     let quantity = $('#quantity');
     let submitBtn = $('#submit');
     let inventory = $('.display');
-    let capacity = $('#capacity');
+    let usedCapacity = $('#capacity');
     let sum = $('#sum');
 
     product.on('input', () => {
@@ -35,11 +35,11 @@ function onlineShop(selector) {
     });
 
     submitBtn.on('click', () => {
-        let totalQty = Number(capacity.val()) + Number(quantity.val());
+        let currentCapacity = Number(usedCapacity.val()) + Number(quantity.val());
 
-        if (totalQty < 150) {
+        if (currentCapacity < 150) {
             addProduct();
-        } else if (totalQty === 150) {
+        } else if (currentCapacity === 150) {
             addProduct();
             disableInput();
         }
@@ -55,7 +55,7 @@ function onlineShop(selector) {
     }
 
     function recordAndDisplayQty() {
-        capacity.val(Number(capacity.val()) + Number(quantity.val()))
+        usedCapacity.val(Number(usedCapacity.val()) + Number(quantity.val()))
     }
 
     function recordAndDisplayPrice() {
@@ -71,8 +71,8 @@ function onlineShop(selector) {
     }
 
     function disableInput() {
-        capacity.val('full');
-        capacity.addClass('fullCapacity');
+        usedCapacity.val('full');
+        usedCapacity.addClass('fullCapacity');
         product.attr('disabled', true);
         price.attr('disabled', true);
         quantity.attr('disabled', true);
