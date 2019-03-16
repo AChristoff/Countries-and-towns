@@ -4,66 +4,58 @@ class BookCollection {
         this.shelfGenre = shelfGenre;
         this.shelfCapacity = shelfCapacity;
         this.shelf = [];
+        return this;
     }
 
     get room() {
         return this._room
     }
 
-    set room(room) {
-        if (room === 'livingRoom'
-            || room === 'bedRoom'
-            || room === 'closet') {
-            return this._room = room;
+    set room(roomName) {
+        if (roomName === 'livingRoom' || roomName === 'bedRoom' || roomName === 'closet') {
+            return this._room = roomName;
         } else {
-            throw `Cannot have book shelf in ${room}`;
+            throw `Cannot have book shelf in ${roomName}`;
         }
     }
 
-    addBook(name, author, genre) {
-        if (this.shelfCapacity > 0) {
-            this.shelfCapacity--;
-            this.shelf.push({name, author, genre})
-        } else {
+    get shelfCondition() {
+        return this.shelfCapacity - this.shelf.length;
+    }
+
+    addBook(bookName, bookAuthor, genre) {
+        if (this.shelfCondition === 0) {
             this.shelf.shift();
-            this.shelf.push({name, author, genre})
         }
-        this.shelf.sort((a, b) => a.author.localeCompare(b.author));
+        this.shelf.push({bookName, bookAuthor, genre});
+        this.shelf.sort((a, b) => a.bookAuthor.localeCompare(b.bookAuthor));
+        return this;
     }
 
     throwAwayBook(bookName) {
-        for (let i = 0; i < this.shelf.length; i++) {
-            if (this.shelf[i].name === bookName) {
-                let bookToDelete = this.shelf.indexOf(this.shelf[i]);
-                this.shelf.splice(bookToDelete, 1);
-                this.shelfCapacity++;
-            }
-        }
+        this.shelf = this.shelf.filter((book) => book.bookName !== bookName);
+        return this;
     }
 
     showBooks(genre) {
         let result = [`Results for search "${genre}":`];
         for (let book of this.shelf) {
             if (book.genre === genre) {
-                result.push(`\uD83D\uDCD6 ${book.author} - "${book.name}"`);
+                result.push(`\uD83D\uDCD6 ${book.bookAuthor} - "${book.bookName}"`);
             }
         }
         return result.join('\n');
     }
 
-    get shelfCondition() {
-        return this.shelfCapacity;
-    }
-
     toString() {
         if (this.shelf.length === 0) {
             return "It's an empty shelf";
-        } else {
-            let result = [`"${this.shelfGenre}" shelf in ${this._room} contains:`];
-            for (let book of this.shelf) {
-                    result.push(`\uD83D\uDCD6 "${book.name}" - ${book.author}`);
-            }
-            return result.join('\n');
         }
+        let result = `"${this.shelfGenre}" shelf in ${this._room} contains:\n`;
+        result += this.shelf
+            .map((book) => `\uD83D\uDCD6 "${book.bookName}" - ${book.bookAuthor}`)
+            .join('\n');
+
+        return result.trim();
     }
 }
