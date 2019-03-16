@@ -4,7 +4,6 @@ class BookCollection {
         this.shelfGenre = shelfGenre;
         this.shelfCapacity = shelfCapacity;
         this.shelf = [];
-
         return this;
     }
 
@@ -40,23 +39,19 @@ class BookCollection {
 
     showBooks(genre) {
         let result = [`Results for search "${genre}":`];
-        for (let book of this.shelf) {
-            if (book.genre === genre) {
-                result.push(`\uD83D\uDCD6 ${book.bookAuthor} - "${book.bookName}"`);
-            }
-        }
+        this.shelf
+            .filter((book) => book.genre === genre)
+            .forEach((book) => result.push(`\uD83D\uDCD6 ${book.bookAuthor} - "${book.bookName}"`));
         return result.join('\n');
     }
 
     toString() {
         if (this.shelf.length === 0) {
             return "It's an empty shelf";
+        } else {
+            let result = [`"${this.shelfGenre}" shelf in ${this._room} contains:`];
+            this.shelf.forEach((book) => result.push(`\uD83D\uDCD6 "${book.bookName}" - ${book.bookAuthor}`));
+            return result.join('\n');
         }
-        let result = `"${this.shelfGenre}" shelf in ${this._room} contains:\n`;
-        result += this.shelf
-            .map((book) => `\uD83D\uDCD6 "${book.bookName}" - ${book.bookAuthor}`)
-            .join('\n');
-
-        return result.trim();
     }
 }
