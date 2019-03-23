@@ -1,6 +1,7 @@
 # JS-Core
+__________________________________
 
-Part1 - JS Essentials
+Part 1 - JS Essentials
 
 1 JAVASCRIPT SYNTAX AND OPERATORS | 
 2 DOCUMENT OBJECT MODEL | 
@@ -9,8 +10,9 @@ Part1 - JS Essentials
 5 STRINGS AND REGEXP | 
 6 OBJECTS AND JSON. DOM EVENTS | 
 7 EXAM PREP | 
+__________________________________
 
-Part2 - JS Advanced
+Part 2 - JS Advanced
 
 1 ADVANCED FUNCTIONS | 
 2 UNIT TESTING | 
@@ -19,8 +21,9 @@ Part2 - JS Advanced
 5 JQUERY | 
 6 DOM MANIPULATIONS | 
 7 EXAM PREP | 
+__________________________________
 
-Part3 - JS Applications
+Part 3 - JS Applications
 
 1 REST SERVICES |
 2 AJAX AND JQUERY AJAX |
