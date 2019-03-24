@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f8f1640-98b9-44e3-84fa-fd0ae252349c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/01 - I like JavaScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/02 - Even Numbers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/03 - Fruit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/04 - Fitness.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/05 - GCD.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/06 - Same Numbers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/07 - timeToWalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/08 - Flights.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/09 - Calorie Object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/10 - Coffee Machine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/01. JavaScript-Syntax-and-Operators (Exercise)/JavaScript-Syntax-and-Operators-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/.idea/02. JS-Fundamentals-Document-Object-Model-Exercise-Resources.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/.idea/01_Cards.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/images/card.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/images/whiteCard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/01_Cards/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/.idea/02_Chat-Room-with-Pesho.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/02_Chat-Room-with-Pesho/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/.idea/03_Encode-and-Decode-Messages.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/03_Encode-and-Decode-Messages/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/.idea/04_Locked-Profile.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/images/iconProfile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/04_Locked-Profile/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/.idea/05_Number-Convertor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/05_Number-Convertor/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/.idea/06_SoftUni-Quizz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/06_SoftUni-Quizz/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/.idea/07_Table-Search-Engine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/07_Table-Search-Engine/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/.idea/08_Toto-Numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/08_Toto-Numbers/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/.idea/09_Virus-Installer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/images/virus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/09_Virus-Installer/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/10_No-Signal/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/10_No-Signal/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/10_No-Signal/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/10_No-Signal/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/10_No-Signal/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/10_No-Signal/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/02. Document-Object-Model (Exercise)/Document-Object-Model-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/.idea/03. JS-Fundamentals-Functions-and-Logic-Flow-Exercise-Resources.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/01_Leap-Year/images/SoftUniFoundation_Logo_OneLine_White@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/01_Leap-Year/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/01_Leap-Year/images/cw_2_New_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/01_Leap-Year/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/01_Leap-Year/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/01_Leap-Year/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/02_Simple-Number-Validator/images/SoftUniFoundation_Logo_OneLine_White@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/02_Simple-Number-Validator/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/02_Simple-Number-Validator/images/cw_2_New_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/02_Simple-Number-Validator/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/02_Simple-Number-Validator/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/02_Simple-Number-Validator/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/03_EGN-Validator/images/SoftUniFoundation_Logo_OneLine_White@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/03_EGN-Validator/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/03_EGN-Validator/images/cw_2_New_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/03_EGN-Validator/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/03_EGN-Validator/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/03_EGN-Validator/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/04_Cooking-Numbers/images/SoftUniFoundation_Logo_OneLine_White@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/04_Cooking-Numbers/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/04_Cooking-Numbers/images/cw_2_New_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/04_Cooking-Numbers/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/04_Cooking-Numbers/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/04_Cooking-Numbers/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/05_Cards-Generator/images/SoftUniFoundation_Logo_OneLine_White@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/05_Cards-Generator/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/05_Cards-Generator/images/cw_2_New_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/05_Cards-Generator/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/05_Cards-Generator/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/05_Cards-Generator/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/03. Functions-and-Logic-Flow (Exercise)/Functions-and-Logic-Flow-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/.idea/Exercise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/1. Print an Array with a given Delimiter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/10. Orbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/2. Print every N-th Element from an Array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/3. Add and Remove Elements from an Array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/4. Rotate Array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/5. Extract a Non-decreasing Subsequence from an Array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/6. Sort an Array by 2 Criteria.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/7. Magic Matrices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/8. Spiral Matrix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/9. Diagonal Attack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/04. Arrays-and-Matrices (Exercise)/Arrays-and-Matrices-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/.idea/05. JS-Fundamentals-Strings-and-RegEx-Exercise-Resources.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/.idea/01_Binary-Decoding.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/SoftUniFoundation_Logo_OneLine_White@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/cw_2_New_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/01_Binary-Decoding/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/SoftUniFoundation_Logo_OneLine_White@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/cw_2_New_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/02_Expedition-Problems/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/03_James-Bond/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/03_James-Bond/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/03_James-Bond/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/03_James-Bond/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/03_James-Bond/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/03_James-Bond/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/04_Airport-Check/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/04_Airport-Check/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/04_Airport-Check/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/04_Airport-Check/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/04_Airport-Check/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/04_Airport-Check/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/05. Strings-and-RegEx (Exercise)/Strings-and-RegEx (Exercise).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/.idea/06. JS-Fundamentals-Objects-and-JSON-DOM-Events-Exercise-Resources.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/01.Shopping-Cart/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/01.Shopping-Cart/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/01.Shopping-Cart/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/01.Shopping-Cart/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/01.Shopping-Cart/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/01.Shopping-Cart/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/02.Furniture/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/02.Furniture/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/02.Furniture/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/02.Furniture/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/02.Furniture/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/02.Furniture/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/03.Forum/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/03.Forum/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/03.Forum/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/03.Forum/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/03.Forum/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/03.Forum/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/04.Salesman/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/04.Salesman/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/04.Salesman/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/04.Salesman/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/04.Salesman/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/04.Salesman/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/06. Objects-and-JSON-DOM-Events (Exercise)/Objects-and-JSON-DOM-Events.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/.idea/7 - Exam preparation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/01. Stadium/FirstProblem-Stadium.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/01. Stadium/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/01. Stadium/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/01. Stadium/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/01. Stadium/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/01. Stadium/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/01. Stadium/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/01. Stadium/~$. Stadium_Условие.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/02. Crossword/SecondProblem-Crossword.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/02. Crossword/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/02. Crossword/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/02. Crossword/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/02. Crossword/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/02. Crossword/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/02. Crossword/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/03. Extractor/ThirdProblm-Extractor.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/03. Extractor/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/03. Extractor/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/03. Extractor/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/03. Extractor/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/03. Extractor/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/03. Extractor/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/04. Trucks/FourthProblem-Trucks.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/04. Trucks/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/04. Trucks/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/04. Trucks/images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/04. Trucks/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/04. Trucks/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/04. Trucks/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part1 - JS Essentials/07. Exam preparation/04. Trucks/~$. Trucks_Условие.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/01. Sort Array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/02. Argument Info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/03. Functional Sum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/04. Personal BMI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/05. Vector Math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/06. Breakfast Robot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/07. Monkey Patcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/08.Greatest Common Divisor - recursion (Euclid’s algorithm).js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/01. Advanced-Functions (Exercise)/Advanced-Functions-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/01. requestValidator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/02. oddOrEven.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/02. oddOrEven.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/03. lookupChar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/03. lookupChar.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/04. mathEnforcer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/04. mathEnforcer.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/Unit-Testing-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/02. Unit-Testing-and-Error-Handling (Exercise)/~$it-Testing-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/01. Data Class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/02. Tickets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/03. Unity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/04. Length Limit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/05. Extensible Class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/06. Sorted List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/07. Instance Validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/08. Kitchen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/03. JS-Classes (Exercise)/JS-Classes-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/04. Object-Composition (Exercise)/01. Array extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/04. Object-Composition (Exercise)/02. Construction Crew.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/04. Object-Composition (Exercise)/03. Car Factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/04. Object-Composition (Exercise)/04. Extensible object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/04. Object-Composition (Exercise)/05. String extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/04. Object-Composition (Exercise)/06. Sorted List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/04. Object-Composition (Exercise)/Object-Composition-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/01. Increment-Counter/incrementCounter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/01. Increment-Counter/incrementCounter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/01. Increment-Counter/incrementCounter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/02. Timer/timer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/02. Timer/timer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/02. Timer/timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/03. Form-Validation/form-validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/03. Form-Validation/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/03. Form-Validation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/03. Form-Validation/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/jQuery-Exercises.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/05. jQuery (Exercise)/~$. JS-Advanced-jQuery-Lab.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/01. Substraction/subtract.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/01. Substraction/subtract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/02. Fill Dropdown/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/02. Fill Dropdown/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/03. Accordion/accordion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/04. Sections/sections.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/05. Notification/notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/06. Time Converter/timeConverter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/06. Time Converter/timeConverter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/07. Distance Converter/distanceConverter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/07. Distance Converter/distanceConverter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/06. DOM-Manipulations (Exercise)/DOM-Manipulations-Exercise.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/01. Notes/01. Notes (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/01. Notes/notes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/01. Notes/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/02. Calculator Class - Unit testing/02. Calculator Class - Unit testing (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/02. Calculator Class - Unit testing/Calculator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/02. Calculator Class - Unit testing/Calculator.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/03. BookCollection/03. BookCollection (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/03. BookCollection/Book Collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/04. Online Shop/04. Online Shop (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/04. Online Shop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 15 July 2018/04. Online Shop/solution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/01. Form Acceptance/01. Form Acceptance (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/01. Form Acceptance/01. Form Acceptance/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/01. Form Acceptance/01. Form Acceptance/formIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/01. Form Acceptance/01. Form Acceptance/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/01. Form Acceptance/01. Form Acceptance/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/01. Form Acceptance/01. Form Acceptance/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/02. Softunify/02. Softunify (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/02. Softunify/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/02. Softunify/app.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/02. Softunify/~$. Softunify_Условие.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/03. Vacation/03. Vacation (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/03. Vacation/03. Vavation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/04. Real Estate Agency/04. Real Estate Agency (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/04. Real Estate Agency/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/04. Real Estate Agency/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/04. Real Estate Agency/roof.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/04. Real Estate Agency/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/04. Real Estate Agency/~$. Real Estate Agency_Условие.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 18 Nov 2018/~$. Vacation_Условие.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/01. Gift Shop/01. Gift Shop (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/01. Gift Shop/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/01. Gift Shop/gift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/01. Gift Shop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/01. Gift Shop/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/02. Warehouse/02. Warehouse (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/02. Warehouse/Warehouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/02. Warehouse/Warehouse.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/03. Kitchen/03. Kitchen (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/03. Kitchen/Kitchen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/04. Dart Game/04. Dart Game (Description).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/04. Dart Game/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/04. Dart Game/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/07. Exam preparation/Old exam from 19 Nov 2018/04. Dart Game/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/Part2 - JS Advanced/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../JS-Core/README.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../../Mid exam/Code/01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="width" value="1005" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f8f1640-98b9-44e3-84fa-fd0ae252349c" name="Default Changelist" comment="" />
+      <created>1553443798693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553443798693</updated>
+      <workItem from="1553443801753" duration="729000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="729000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14342366" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Quokka" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/database.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Mid exam/Code/01-B.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Mid exam/Code/01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
