@@ -1,7 +1,12 @@
 function attachEvents() {
     let url = 'https://messanger-b24ae.firebaseio.com/messages.json';
+    let firstMessage = 0;
+    let firstMessageKey = '';
 
     $('#submit').on('click', sendMessage => {
+        firstMessage++;
+
+
         let author = $('#author').val();
         let content = $('#content').val();
         let timeStamp = Date.now();
@@ -15,11 +20,32 @@ function attachEvents() {
             method: 'POST',
             url,
             data: JSON.stringify(message),
-            success: () => {
-                $('#refresh').click();
+            success: (id) => {
                 $('#author').val('');
                 $('#content').val('');
-            },
+
+                if (firstMessage === 1) {
+                    firstMessageKey = id.name;
+                }
+
+                $.ajax({
+                    method: 'GET',
+                    url,
+                    success: (data) => {
+                        let flag = false;
+                        let newMessages = '';
+                        for (let [key, message] of Object.entries(data)) {
+                            if (key === firstMessageKey) {
+                                flag = true;
+                            }
+                            if (flag) {
+                                newMessages += `${message.author}: ${message.content}\n`;
+                                $('#messages').text(newMessages);
+                            }
+                        }
+                    }
+                })
+            }
         })
     });
 
