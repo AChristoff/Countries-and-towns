@@ -7,7 +7,6 @@ function attachEvents() {
     $('#submit').on('click', sendMessage => {
         firstMessage++;
 
-
         let author = $('#author').val();
         let content = $('#content').val();
         let timeStamp = Date.now();
