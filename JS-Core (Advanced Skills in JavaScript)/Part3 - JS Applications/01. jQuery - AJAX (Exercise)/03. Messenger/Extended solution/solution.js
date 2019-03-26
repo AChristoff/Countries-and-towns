@@ -1,12 +1,11 @@
 function attachEvents() {
     let url = 'https://messanger-b24ae.firebaseio.com/messages.json';
     let firstMessage = 0;
-    let historyClicked = false;
     let firstMessageKey = '';
+    let historyClicked = false;
 
     $('#submit').on('click', sendMessage => {
         firstMessage++;
-
 
         let author = $('#author').val();
         let content = $('#content').val();
@@ -22,6 +21,7 @@ function attachEvents() {
             url,
             data: JSON.stringify(message),
             success: (id) => {
+
                 $('#author').val('');
                 $('#content').val('');
 
