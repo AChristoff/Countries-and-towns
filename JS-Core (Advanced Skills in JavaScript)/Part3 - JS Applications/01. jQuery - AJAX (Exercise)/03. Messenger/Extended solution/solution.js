@@ -21,6 +21,7 @@ function attachEvents() {
             url,
             data: JSON.stringify(message),
             success: (id) => {
+
                 $('#author').val('');
                 $('#content').val('');
 
