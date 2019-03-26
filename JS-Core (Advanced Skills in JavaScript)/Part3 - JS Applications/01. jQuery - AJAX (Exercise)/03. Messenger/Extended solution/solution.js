@@ -1,6 +1,7 @@
 function attachEvents() {
     let url = 'https://messanger-b24ae.firebaseio.com/messages.json';
     let firstMessage = 0;
+    let historyClicked = false;
     let firstMessageKey = '';
 
     $('#submit').on('click', sendMessage => {
@@ -38,9 +39,11 @@ function attachEvents() {
                             if (key === firstMessageKey) {
                                 flag = true;
                             }
-                            if (flag) {
+                            if (flag && !historyClicked) {
                                 newMessages += `${message.author}: ${message.content}\n`;
                                 $('#messages').text(newMessages);
+                            } else if (historyClicked) {
+                                $('#refresh').click();
                             }
                         }
                     }
@@ -50,6 +53,7 @@ function attachEvents() {
     });
 
     $('#refresh').on('click', showMessages => {
+        historyClicked = true;
 
         $.ajax({
             method: 'GET',
