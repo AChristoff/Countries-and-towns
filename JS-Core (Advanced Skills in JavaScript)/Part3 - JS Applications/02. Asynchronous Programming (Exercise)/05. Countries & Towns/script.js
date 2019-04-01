@@ -39,9 +39,10 @@ function countriesAndTowns() {
                 editBtn.on('click', editCountry);
                 let deleteBtn = $(`<button class="options">Delete</button>`);
                 deleteBtn.on('click', deleteCountry);
+                let list = $(`<p class="list"></p>`);
                 let line = $('<hr>');
 
-                countrySpan.append(countryBtn, input, editBtn, deleteBtn, line);
+                countrySpan.append(countryBtn, input, editBtn, deleteBtn, list, line);
                 mainSpan.append(countrySpan)
 
             });
@@ -113,26 +114,119 @@ function countriesAndTowns() {
 
     async function showTowns() {
         spinner.show();
+        let counter = 0;
         let id = $(this).parent().data('id');
         try {
+            let list = $(this).parent().children('.list').show();
+            list.empty();
             let countryInfo = await $.ajax({
                 headers,
                 url: baseUrl + 'appdata/' + appKey + '/' + collection + '/' + id,
                 method: 'GET'
             });
 
-            console.log(countryInfo);
             let entries = Object.entries(countryInfo);
-            let towns = [];
+
             for (let [key, value] of entries) {
-                if (key.includes('Town')) {
-                    towns.push(value);
+                if (key.includes('Town') && value !== '') {
+                    counter++;
+                    let div = $(`<div class="towns" data-id="${key}"></div>`);
+                    let p = $(`<p>${value}</p>`);
+                    let input = $('<input id="inputTown" type="text" placeholder="add/edit town">');
+                    let add = $('<button id="add" class="towns">add</button>');
+                    add.on('click', addTown);
+                    let edit = $('<button id="edit" class="towns">edit</button>');
+                    edit.on('click', editTown);
+                    let del = $('<button id="del" class="towns">delete</button>');
+                    del.on('click', deleteTown);
+
+                    div.append(p, input, add, edit, del);
+                    div.appendTo(list);
+                }
+                if (key.includes('kmd') && counter === 0) {
+                    counter++;
+                    let div = $(`<div class="towns" data-id="${key}"></div>`);
+                    let p = $(`<p>No towns yet</p>`);
+                    let input = $('<input id="inputTown" type="text" placeholder="add town">');
+                    let add = $('<button id="add" class="towns">add</button>');
+                    add.on('click', firstTown);
+
+                    div.append(p, input, add);
+                    div.appendTo(list);
+                    spinner.hide();
                 }
             }
-
-            spinner.hide()
         } catch (err) {
             console.log(err);
+        }
+        spinner.hide()
+    }
+
+    async function firstTown() {
+        spinner.show();
+        let townId = $(this).parent().data('id');
+        let id = $(this).parent().parent().parent().data('id');
+        let country = $(this).parent().parent().parent().children('.country').text();
+        let town = $(this).parent().children('#inputTown').val();
+        let newTown = {
+            'Town-1': town,
+            Country: country,
+        };
+
+        try {
+
+            await $.ajax({
+                headers,
+                url: baseUrl + 'appdata/' + appKey + '/' + collection + '/' + id,
+                method: 'PUT',
+                data: JSON.stringify(newTown)
+            });
+
+            $(this).parent().parent().parent().children('.country').click();
+        } catch (error) {
+            console.log(error);
+            spinner.hide();
+        }
+    }
+    
+    function addTown() {
+        
+    }
+
+    function editTown() {
+        console.log('edit');
+        console.log($(this).parent());
+    }
+
+    async function deleteTown() {
+        spinner.show();
+        let townId = $(this).parent().data('id');
+        let deletedTown = {[townId]: ''};
+        console.log(deletedTown);
+        let id = $(this).parent().parent().parent().data('id');
+
+
+        try {
+
+            let townInfo = await $.ajax({
+                headers,
+                url: baseUrl + 'appdata/' + appKey + '/' + collection + '/' + id,
+                method: 'GET',
+            });
+
+            console.log(townInfo);
+            // await $.ajax({
+            //     headers,
+            //     url: baseUrl + 'appdata/' + appKey + '/' + collection + '/' + id,
+            //     method: 'PUT',
+            //     data: JSON.stringify(deletedTown)
+            // });
+
+            showTowns();
+
+        } catch (error) {
+            console.log(error);
+            spinner.hide();
         }
     }
 }
