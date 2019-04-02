@@ -10,7 +10,6 @@ function countriesAndTowns() {
         'Content-Type': 'application/json'
     };
 
-
     $('#showCountriesButton').on('click', showCountries);
     $('#addCountry').on('click', addCountry);
     let spinner = $('#spinner');
@@ -163,7 +162,6 @@ function countriesAndTowns() {
                     div.append(lh, input, add);
                 }
 
-
                 div.appendTo(list);
                 spinner.hide();
             }
@@ -175,7 +173,6 @@ function countriesAndTowns() {
                     addTownButtons(town);
                 })
             }
-
 
         } catch (err) {
             console.log(err);
