@@ -1,20 +1,3 @@
-#results {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-#results tr {
-    background-color: #AAAAAA;
-    padding: 5vh;
-    font-size: 1.5vw;
-}
-
-#results tr:nth-child(odd) {
-    background-color: #808080;
-}
-
 input {
     display: list-item;
     margin: 6px 4px;
@@ -25,7 +8,6 @@ p.country {
     margin: 4px 4px;
     border-radius: 4px;
     cursor: default;
-    font-size: 1.5vw;
     font-family: Calibri;
     background-color: #000000;
     color: #FFFFFF;
@@ -34,8 +16,22 @@ p.country {
     text-align: center;
 }
 
-div.main {
-    display: inline-grid;
+div.add {
+    margin: 0;
+    position: absolute;
+    left: 43%;
+    max-width: 228px;
+    border: solid black 2px;
+    border-radius: 4px;
+    margin: 8px 8px;
+}
+
+div.show {
+    margin: 0;
+    position: absolute;
+    left: 43%;
+    top: 100px;
+    max-width: 228px;
     border: solid black 2px;
     border-radius: 4px;
     margin: 8px 8px;
@@ -60,6 +56,10 @@ button {
     width: 100px,
 }
 
+#inputTown {
+    margin: 2px 2px;
+}
+
 button.towns{
     background-color: #4CAF50;
     color: white;
@@ -68,7 +68,7 @@ button.towns{
     border: solid white 2px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1.3vw;
+    font-size: 16px;
     font-family: Calibri;
     width: 100px,
 }
@@ -90,11 +90,10 @@ button.options {
     border: solid black 2px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1.5vw;
     font-family: Calibri;
     background-color: #FFFFFF;
     color: #000000;
-    font-size: 1.2vw;
+    font-size: 1em;
     font-family: Calibri;
 }
 
@@ -105,7 +104,8 @@ button:hover {
 .town-name {
     cursor: default;
     margin: 4px 4px;
-    font-size: 1em;
+    font-size: 22px;
+    font-style: italic;
 }
 
 #spinner {
