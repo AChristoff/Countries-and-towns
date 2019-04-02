@@ -21,17 +21,17 @@ input {
     width: 215px;
 }
 
-button.country {
+p.country {
     margin: 4px 4px;
-    border: solid white 2px;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: default;
     font-size: 1.5vw;
     font-family: Calibri;
     background-color: #000000;
     color: #FFFFFF;
-    font-size: 1.5vw;
+    font-size: 1.5em;
     font-family: Calibri;
+    text-align: center;
 }
 
 div.main {
@@ -84,7 +84,7 @@ button.country:hover {
 }
 
 button.options {
-    width: 104px;
+    width: 68px;
     display: table-column;
     margin: 4px 4px;
     border: solid black 2px;
@@ -98,11 +98,12 @@ button.options {
     font-family: Calibri;
 }
 
-button.options:hover {
+button:hover {
     border: solid #ffeca4 2px;
 }
 
 .town-name {
+    cursor: default;
     margin: 4px 4px;
     font-size: 1em;
 }

@@ -31,17 +31,18 @@ function countriesAndTowns() {
             countriesList.forEach((countryObj) => {
                 let id = countryObj._id;
                 let countrySpan = $(`<span data-id="${id}">`);
-                let countryBtn = $(`<button class="country">${countryObj.Country}</button>`);
-                countryBtn.on('click', showTowns);
+                let countryBtn = $(`<p class="country">${countryObj.Country}</p>`);
                 let input = $('<input id="edit" type="text" placeholder="Edit country">');
                 let editBtn = $(`<button class="options">Edit</button>`);
                 editBtn.on('click', editCountry);
                 let deleteBtn = $(`<button class="options">Delete</button>`);
                 deleteBtn.on('click', deleteCountry);
+                let showTownsBtn = $(`<button id="show-towns" class="options">Towns</button>`);
+                showTownsBtn.on('click', showTowns);
                 let list = $(`<p class="list"></p>`);
                 let line = $('<hr>');
 
-                countrySpan.append(countryBtn, input, editBtn, deleteBtn, list, line);
+                countrySpan.append(countryBtn, input, editBtn, deleteBtn, showTownsBtn, list, line);
                 mainSpan.append(countrySpan)
 
             });
@@ -127,7 +128,7 @@ function countriesAndTowns() {
     }
 
     // - - - Towns CRUD
-    
+
     async function showTowns() {
         spinner.show();
         let counter = 0;
@@ -154,7 +155,7 @@ function countriesAndTowns() {
                 let del = $('<button id="del" class="towns">delete</button>');
                 del.on('click', deleteTown);
 
-                if (text !== 'Add New Town') {
+                if (text !== 'Add new town') {
                     let li = $(`<li class="town-name">${text}</li>`);
                     div.append(li, input, edit, del);
                 } else {
@@ -167,7 +168,7 @@ function countriesAndTowns() {
                 spinner.hide();
             }
 
-            addTownButtons('Add New Town');
+            addTownButtons('Add new town');
 
             if (townsArr) {
                 townsArr.forEach((town) => {
@@ -217,7 +218,7 @@ function countriesAndTowns() {
                 data: JSON.stringify(newTown)
             });
 
-            $(this).parent().parent().parent().children('.country').click();
+            $(this).parent().parent().parent().children('#show-towns').click();
 
         } catch (err) {
             console.log(err);
@@ -255,7 +256,7 @@ function countriesAndTowns() {
                 data: JSON.stringify(newTown)
             });
 
-            $(this).parent().parent().parent().children('.country').click();
+            $(this).parent().parent().parent().children('#show-towns').click();
 
         } catch (err) {
             console.log(err);
@@ -290,7 +291,7 @@ function countriesAndTowns() {
                 data: JSON.stringify(newTown)
             });
 
-            $(this).parent().parent().parent().children('.country').click();
+            $(this).parent().parent().parent().children('#show-towns').click();
 
         } catch (err) {
             console.log(err);
