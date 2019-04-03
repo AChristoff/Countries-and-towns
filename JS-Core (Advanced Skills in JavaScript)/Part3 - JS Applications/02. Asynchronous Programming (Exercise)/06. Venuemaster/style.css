@@ -68,6 +68,12 @@ td, th {
     float: right;
 }
 
+#error {
+    color: red;
+    font-family: Arial;
+    font-size: 13px;
+}
+
 #spinner {
     position:fixed;
     width:100%;

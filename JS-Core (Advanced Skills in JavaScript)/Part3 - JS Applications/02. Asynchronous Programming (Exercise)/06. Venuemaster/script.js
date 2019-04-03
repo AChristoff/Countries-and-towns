@@ -1,4 +1,13 @@
 function attachEvents() {
+    /*
+
+    The service at the given address will respond
+    with valid information only for this dates
+    23-11 , 24-11 , 25-11 , 26-11 , 27-11
+    , in this exact format.
+
+     */
+
     const baseUrl = 'https://baas.kinvey.com/';
     const appKey = 'kid_BJ_Ke8hZg';
     const collection = 'venues';
@@ -11,11 +20,11 @@ function attachEvents() {
 
     $('#getVenues').on('click', getList);
     let spinner = $('#spinner');
-
-    let date = $('#venueDate').val();
-    let infoButtons;
+    let body = $('#venue-info');
 
     async function getList() {
+        body.empty();
+        let date = $('#venueDate').val();
         spinner.show();
         try {
             let venuesIDs = await $.ajax({
@@ -34,13 +43,19 @@ function attachEvents() {
             });
 
         } catch (err) {
-            console.log(err);
+            let errorMessage = $(`<div id="error"></div>`);
+            errorMessage.text('We are very sorry! But we have available offers only for the following dates: 23-11, 24-11, 25-11, 26-11, 27-11.Thank you for choosing Venuemaster!');
+            $('#venueDate').val('');
+            $('#venueDate').attr('placeholder', 'Enter date in format DD-MM');
+            body.append('<br>', errorMessage);
             spinner.hide();
+            console.log(err);
         }
     }
 
     function listVenue(venue) {
         let mainDIV = $('#venue-info');
+        let venueID = venue._id;
         let venueDIV =
             $(`<div class="venue" id="${venue._id}">
                         <span class="venue-name">
@@ -75,7 +90,7 @@ function attachEvents() {
 
         venueDIV.find('.info').on('click', (e) => {
 
-            let venue = venueDIV.find('.venue-name').text();
+            let selectedVenue = venueDIV.find('.venue-name').text();
             let purchaseButton = venueDIV.find('.purchase');
 
             let time = venueDIV
@@ -98,16 +113,61 @@ function attachEvents() {
             purchaseButton.on('click', () => {
                 let price = +venueDIV.find('.venue-price').text().split(' ')[0];
                 let qty = +venueDIV.find('.quantity').val();
+                let totalPrice = (price * qty).toFixed(2);
                 mainDIV.empty();
                 let purchaseDIV =
                     $(`<span class="head">Confirm purchase</span>
                         <div class="purchase-info">
-                            <span>${venue}</span>
-                            <span>${qty} x ${price}</span>
-                            <span>Total: ${qty * price} lv</span>
+                            <span>${selectedVenue}</span>
+                            <span>${qty} x ${price.toFixed(2)}</span>
+                            <span>Total: ${totalPrice} lv</span>
                             <input type="button" value="Confirm">
                         </div>`);
+                
+                purchaseDIV.find('input').on('click', confirm);
+
+                async function confirm() {
+                    spinner.show();
+                    mainDIV.empty();
+                    try {
+                        let confirmation = await $.ajax({
+                            headers,
+                            url: baseUrl + `rpc/kid_BJ_Ke8hZg/custom/purchase?venue=${selectedVenue}&qty=${qty} `,
+                            method: 'POST'
+                        });
+                        console.log(confirmation);
+                        let confirmationDIV = $(confirmation.html);
+                        /* `<div class="ticket">
+                                 <div class="left">
+                                    <span class="head">Venuemaster</span>
+                                    <span class="venue-name">undefined</span>
+                                    <span class="bl">undefined</span>
+                                    <br>
+                                    <span class="bl">Admit 1</span>
+                                    <span class="bl">NaN lv</span>
+                                 </div>
+                                 <div class="right">
+                                    <span>Venue code</span>
+                                    <br>
+                                    <span>Kankun</span>
+                                    <span class="head">Venuemaster</span>
+                                </div>
+                            </div>`; */
+                        confirmationDIV.find('.venue-name').text(`${selectedVenue}`);
+                        $(confirmationDIV.find('.bl').toArray()[0]).text(`${time}`);
+                        $(confirmationDIV.find('.bl').toArray()[2]).text(`${totalPrice} lv`);
+                        $(confirmationDIV.find('.right').children().toArray()[2]).text(`${venueID}`);
+                        $('<span>You may print this page as your ticket</span>').appendTo(mainDIV);
+                        confirmationDIV.appendTo(mainDIV);
+                        spinner.hide();
+                    } catch (err) {
+                        console.log(err);
+                        spinner.hide();
+                    }
+                }
+
                 purchaseDIV.appendTo(mainDIV);
+                
             });
         });
 
