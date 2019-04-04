@@ -40,11 +40,17 @@ function attachEvents() {
     async function showBooks() {
         spinner.show();
         try {
+
             let bookList = await $.ajax({
                 headers,
                 url: baseUrl + '/' + appKey + '/' + collection,
                 method: 'GET',
             });
+
+            function makeList() {
+
+            }
+
             let list = $('#book-list');
             list.empty();
             let tableHeader = $(`<th>Title</th>
@@ -78,7 +84,9 @@ function attachEvents() {
                         $(secondRow).append(authorInput);
                         $(thirdRow).append(isbnInput);
                         $(edit).children().attr('class', 'editing');
-                        $(del).children().text('Commit');
+                        let commitBtn = $(del).empty();
+                        commitBtn.append('<button id="commit" class="edit">Commit</button>');
+                        commitBtn.on('click', commitChanges);
                     } else {
                         let row = e.target.parentNode.parentNode;
                         let [firstRow, , secondRow, , thirdRow, , edit, , del] = $(row.childNodes).toArray();
@@ -89,10 +97,7 @@ function attachEvents() {
                         $(del).children().text('Delete');
                     }
                 });
-                p.find('#delete').on('click', (e) => {
-                    console.log(e.target);
-                });
-
+                p.find('#delete').on('click', deleteBook);
                 p.appendTo(list);
             });
 
@@ -102,6 +107,63 @@ function attachEvents() {
             console.log(err);
             spinner.hide();
         }
+    }
+
+    showBooks().click;
+
+    async function commitChanges() {
+        spinner.show();
+        let id = $(this).parent().toArray()[0].id;
+
+        try {
+
+            let book = await $.ajax({
+                headers,
+                url: baseUrl + '/' + appKey + '/' + collection + '/' + id,
+                method: 'GET',
+            });
+
+            let titleCell = $(this).parent().children().toArray()[0];
+            let authorCell = $(this).parent().children().toArray()[1];
+            let isbnCell = $(this).parent().children().toArray()[2];
+            titleCell = $(titleCell.firstChild).val();
+            authorCell = $(authorCell.firstChild).val();
+            isbnCell = $(isbnCell.firstChild).val();
+
+            let editBook = {
+                title: titleCell || book.title,
+                author: authorCell || book.author,
+                isbn: isbnCell || book.isbn,
+            };
+
+            await $.ajax({
+                headers,
+                url: baseUrl + '/' + appKey + '/' + collection + '/' + id,
+                method: 'PUT',
+                data: JSON.stringify(editBook),
+            });
+            showBooks();
+
+        } catch (err) {
+            console.log(err);
+            spinner.hide();
+        }
+    }
+
+    async function deleteBook() {
+        spinner.show();
+        let id = $(this).parent().parent().toArray()[0].id;
+        try {
+            await $.ajax({
+                headers,
+                url: baseUrl + '/' + appKey + '/' + collection + '/' + id,
+                method: 'DELETE'
+            });
+        } catch (err) {
+            console.log(err);
+            spinner.hide()
+        }
+        showBooks();
     }
 }
 
