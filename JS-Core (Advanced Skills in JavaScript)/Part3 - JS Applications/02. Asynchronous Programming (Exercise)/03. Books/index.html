@@ -10,14 +10,17 @@
 <div id="spinner" style="display: none"></div>
 <div>
     <button id="addButton" class="button">Add Book</button>
-    <input id="add-title" placeholder="enter Title">
-    <input id="add-author" placeholder="enter Author">
-    <input id="add-number" placeholder="enter ISBN">
-</div>
-<div>
     <button id="showButton" class="button">Show Books</button>
-    <table id="book-list">
+    <table id="input">
+        <tr>
+            <td><input id="add-title" placeholder="enter Title"></td>
+            <td><input id="add-author" placeholder="enter Author"></td>
+            <td><input id="add-number" placeholder="enter ISBN"></td>
+            <td><button id="commitBook" class="edit">Commit</button></td>
+        </tr>
     </table>
+    <table id="book-list"></table>
+
 </div>
 <script src="script.js"></script>
 <script> attachEvents() </script>

@@ -10,12 +10,30 @@ function attachEvents() {
         'Content-Type': 'application/json'
     };
 
-    $('#addButton').on('click', addBook);
+    let addBtn = $('#addButton');
+    addBtn.on('click', addBook);
+
     $('#showButton').on('click', showBooks);
 
-    async function addBook() {
-        spinner.show();
+    let adding = 1;
+    let add = $('#input');
 
+    async function addBook() {
+        adding++;
+        add.show();
+        let commitBtn = $('#commitBook');
+        if (adding % 2 === 0) {
+            add.show();
+            commitBtn.on('click', commitBook);
+            addBtn.attr('class', 'adding');
+        } else {
+            add.hide();
+            addBtn.attr('class', 'button');
+        }
+    }
+
+    async function commitBook() {
+        spinner.show();
         let newBook = {
             title: $('#add-title').val(),
             author: $('#add-author').val(),
@@ -30,11 +48,15 @@ function attachEvents() {
                 data: JSON.stringify(newBook),
             });
             showBooks();
+
+            $('#add-title').val('');
+            $('#add-author').val('');
+            $('#add-number').val('');
+
         } catch (err) {
             console.log(err);
             spinner.hide();
         }
-
     }
 
     async function showBooks() {
@@ -94,7 +116,8 @@ function attachEvents() {
                         $(secondRow).empty().text(`${book.author}`);
                         $(thirdRow).empty().text(`${book.isbn}`);
                         $(edit).children().attr('class', 'edit');
-                        $(del).children().text('Delete');
+                        let commitBtn = $(del).empty();
+                        commitBtn.append('<button id="delete" class="edit">Delete</button>');
                     }
                 });
                 p.find('#delete').on('click', deleteBook);
@@ -108,8 +131,6 @@ function attachEvents() {
             spinner.hide();
         }
     }
-
-    showBooks().click;
 
     async function commitChanges() {
         spinner.show();
