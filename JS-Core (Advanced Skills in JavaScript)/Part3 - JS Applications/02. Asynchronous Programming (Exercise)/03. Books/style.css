@@ -1,3 +1,14 @@
+h2 {
+    font-family: "Monsieur La Doulaise";
+    font-size: 100px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26px;
+    color: #0099CC;
+    margin: 80px 20px;
+}
+
 div {
 
     margin: 15px;
@@ -22,8 +33,21 @@ table {
     font-family: Arial;
 }
 
+
 th, td {
+    height: 40px;
     width: 200px;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th:nth-child(4),
+th:nth-child(5),
+td:nth-child(4),
+td:nth-child(5) {
+    height: 40px;
+    width: 90px;
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -51,7 +75,7 @@ th, td {
     font-family: Arial;
 }
 
-.adding {
+.adding, .hide {
     transition: all 0.5s ease;
     margin: 4px 0px;
     position: relative;

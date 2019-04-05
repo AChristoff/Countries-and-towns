@@ -10,53 +10,90 @@ function attachEvents() {
         'Content-Type': 'application/json'
     };
 
-    let addBtn = $('#addButton');
-    addBtn.on('click', addBook);
+    let addBtn = $('#addButton').on('click', addBook);
+    let showHideBtn = $('#showButton').on('click', showHideBooks);
+    $('#commitBook').on('click', commitBook);
+    $('#cancelAdd').on('click', cancelAdd);
 
-    $('#showButton').on('click', showBooks);
-
-    let adding = 1;
     let add = $('#input');
+    let list = $('#book-list');
+    let title = $('#add-title');
+    let author = $('#add-author');
+    let isbn = $('#add-number');
 
     async function addBook() {
-        adding++;
-        add.show();
-        let commitBtn = $('#commitBook');
-        if (adding % 2 === 0) {
+
+        if (!add.is(':visible')) {
             add.show();
-            commitBtn.on('click', commitBook);
             addBtn.attr('class', 'adding');
         } else {
             add.hide();
             addBtn.attr('class', 'button');
+            resetTitle(true);
+            resetAuthor(true);
         }
     }
 
     async function commitBook() {
         spinner.show();
-        let newBook = {
-            title: $('#add-title').val(),
-            author: $('#add-author').val(),
-            isbn: $('#add-number').val(),
-        };
 
-        try {
-            await $.ajax({
-                headers,
-                url: baseUrl + '/' + appKey + '/' + collection,
-                method: 'POST',
-                data: JSON.stringify(newBook),
-            });
-            showBooks();
+        if (title.val() && author.val()) {
+            let newBook;
 
-            $('#add-title').val('');
-            $('#add-author').val('');
-            $('#add-number').val('');
+            if (isbn.val()) {
+                newBook = {
+                    title: title.val(),
+                    author: author.val(),
+                    isbn: isbn.val(),
+                };
+            } else {
+                newBook = {
+                    title: title.val(),
+                    author: author.val(),
+                    isbn: 'N/A',
+                };
+            }
 
-        } catch (err) {
-            console.log(err);
+            try {
+                await $.ajax({
+                    headers,
+                    url: baseUrl + '/' + appKey + '/' + collection,
+                    method: 'POST',
+                    data: JSON.stringify(newBook),
+                });
+                showBooks();
+
+                title
+                    .val('')
+                    .attr('placeholder', '  enter Title *');
+                author
+                    .val('')
+                    .attr('placeholder', '  enter Author *');
+                isbn.val('');
+
+            } catch (err) {
+                console.log(err);
+                spinner.hide();
+            }
+        } else {
+            if (!title.val()) {
+                title
+                    .attr('placeholder', '  Title is required *')
+                    .css('border', 'solid #DC143C 2px');
+                title.on('keypress', () => resetTitle())
+            }
+            if (!author.val()) {
+                author
+                    .attr('placeholder', '  Author is required *')
+                    .css('border', 'solid #DC143C 2px');
+
+                author.on('keypress', () => resetAuthor())
+            }
+
             spinner.hide();
         }
+
+
     }
 
     async function showBooks() {
@@ -69,11 +106,6 @@ function attachEvents() {
                 method: 'GET',
             });
 
-            function makeList() {
-
-            }
-
-            let list = $('#book-list');
             list.empty();
             let tableHeader = $(`<th>Title</th>
                                  <th>Author</th>
@@ -90,40 +122,42 @@ function attachEvents() {
                                <td><button id="delete" class="edit">Delete</button></td>
                            </tr>`);
 
-                let editing = 1;
-                p.find('#edit').on('click', (e) => {
-                    editing++;
-                    if (editing % 2 === 0) {
+                let editBtn = p.find('#edit');
+                editBtn.on('click', (e) => {
+
+                    if (editBtn.text() === 'Edit') {
                         let row = e.target.parentNode.parentNode;
                         let [firstRow, , secondRow, , thirdRow, , edit, , del] = $(row.childNodes).toArray();
                         $(firstRow).empty();
                         $(secondRow).empty();
                         $(thirdRow).empty();
-                        let titleInput = $(`<input id="edit-title" placeholder='edit title "${book.title}"'>`);
-                        let authorInput = $(`<input id="edit-author" placeholder='edit author "${book.author}"'>`);
-                        let isbnInput = $(`<input id="edit-number" placeholder='edit ISBN "${book.isbn}"'>`);
+                        let titleInput = $(`<input id="edit-title" placeholder='edit: ${book.title}'>`);
+                        let authorInput = $(`<input id="edit-author" placeholder='edit: ${book.author}'>`);
+                        let isbnInput = $(`<input id="edit-number" placeholder='edit: ${book.isbn}'>`);
                         $(firstRow).append(titleInput);
                         $(secondRow).append(authorInput);
                         $(thirdRow).append(isbnInput);
-                        $(edit).children().attr('class', 'editing');
+                        $(edit).children().attr('class', 'editing').text('Cancel');
                         let commitBtn = $(del).empty();
                         commitBtn.append('<button id="commit" class="edit">Commit</button>');
-                        commitBtn.on('click', commitChanges);
+                        commitBtn.children().on('click', commitChanges);
                     } else {
                         let row = e.target.parentNode.parentNode;
                         let [firstRow, , secondRow, , thirdRow, , edit, , del] = $(row.childNodes).toArray();
                         $(firstRow).empty().text(`${book.title}`);
                         $(secondRow).empty().text(`${book.author}`);
                         $(thirdRow).empty().text(`${book.isbn}`);
-                        $(edit).children().attr('class', 'edit');
+                        $(edit).children().attr('class', 'edit').text('Edit');
                         let commitBtn = $(del).empty();
                         commitBtn.append('<button id="delete" class="edit">Delete</button>');
+                        commitBtn.children().on('click', deleteBook);
                     }
                 });
+
                 p.find('#delete').on('click', deleteBook);
                 p.appendTo(list);
             });
-
+            showHideBtn.text('Hide Books');
             list.show();
             spinner.hide();
         } catch (err) {
@@ -134,7 +168,7 @@ function attachEvents() {
 
     async function commitChanges() {
         spinner.show();
-        let id = $(this).parent().toArray()[0].id;
+        let id = $(this).parent().parent().toArray()[0].id;
 
         try {
 
@@ -144,9 +178,9 @@ function attachEvents() {
                 method: 'GET',
             });
 
-            let titleCell = $(this).parent().children().toArray()[0];
-            let authorCell = $(this).parent().children().toArray()[1];
-            let isbnCell = $(this).parent().children().toArray()[2];
+            let titleCell = $(this).parent().parent().children().toArray()[0];
+            let authorCell = $(this).parent().parent().children().toArray()[1];
+            let isbnCell = $(this).parent().parent().children().toArray()[2];
             titleCell = $(titleCell.firstChild).val();
             authorCell = $(authorCell.firstChild).val();
             isbnCell = $(isbnCell.firstChild).val();
@@ -186,7 +220,56 @@ function attachEvents() {
         }
         showBooks();
     }
+
+    function cancelAdd() {
+        add.hide();
+        addBtn.attr('class', 'button');
+        resetTitle(true);
+        resetAuthor(true);
+    }
+
+    function showHideBooks() {
+
+        if (!list.is(':visible')) {
+            showHideBtn
+                .attr('class', 'hide');
+
+            showBooks();
+
+        } else {
+            list.hide();
+            showHideBtn
+                .attr('class', 'button')
+                .text('Show Books');
+        }
+
+
+    }
+
+    function resetTitle(fullReset) {
+        if (fullReset) {
+            title
+                .val('')
+                .attr('placeholder', '  enter Title *')
+                .css('border', 'inset #EBE9ED 2px ');
+        } else {
+            title
+                .attr('placeholder', '  enter Title *')
+                .css('border', 'inset #EBE9ED 2px ');
+        }
+    }
+
+    function resetAuthor(fullReset) {
+        if (fullReset) {
+            author
+                .val('')
+                .attr('placeholder', '  enter Author *')
+                .css('border', 'inset #EBE9ED 2px ');
+        } else {
+            author
+                .attr('placeholder', '  enter Author *')
+                .css('border', 'inset #EBE9ED 2px ');
+        }
+
+    }
 }
-
-
-
