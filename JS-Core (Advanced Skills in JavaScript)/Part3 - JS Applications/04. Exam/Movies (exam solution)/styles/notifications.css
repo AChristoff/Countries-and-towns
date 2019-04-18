@@ -1,0 +1,34 @@
+
+
+#notifications {
+    position: fixed;
+    margin: 1em;
+}
+
+.notification {
+    font-size: 1.35em;
+    color: #ffffff;
+    display: none;
+    text-align: right;
+}
+
+.notification>span {
+    position: fixed;
+    top: 0px;
+    left: 35%;
+    text-align: center;
+    min-width: 600px;
+    display: inline-block;
+    padding:  0.5em 2em 0.5em 2em;
+    border-radius: 10px;
+}
+
+#loadingBox>span {
+    background: #7CB3E9;
+}
+#infoBox>span {
+    background: #393;
+}
+#errorBox>span {
+    background: #F50;
+}
