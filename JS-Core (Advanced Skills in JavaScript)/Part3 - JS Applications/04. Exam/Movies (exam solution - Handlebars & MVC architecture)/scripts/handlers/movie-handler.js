@@ -32,6 +32,10 @@ handlers.getGenre = function (context) {
     movieService.getGenre(genre)
         .then((res) => {
 
+            if (!res.length) {
+                return notify.showError(`There are no movie in this genre!`)
+            }
+
             context.movies = movieService.sortMovies(res);
 
             context.loadPartials({
