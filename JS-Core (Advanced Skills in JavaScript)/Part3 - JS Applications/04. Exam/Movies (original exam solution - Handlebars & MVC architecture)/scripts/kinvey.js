@@ -1,8 +1,8 @@
 const kinvey = (() => {
 
     const BASE_URL = 'https://baas.kinvey.com/';
-    const APP_KEY = 'kid_ByW5znl9V';
-    const APP_SECRET = 'be00a54de54c4cbeba3ad08415d32e49';
+    const APP_KEY = 'kid_Ske7sdiK4';
+    const APP_SECRET = '01648cde5f6249419291757697bcf5d7';
 
     function makeAuth(auth) {
         if (auth === 'basic') {
