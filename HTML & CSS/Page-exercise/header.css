@@ -1,0 +1,64 @@
+.site-header {
+      border-bottom: 3px solid purple;
+      }
+
+.site-header .wrapper {
+      display: flex;
+      align-items: center;
+      }
+
+.site-nav {
+      margin-left: auto;
+      }
+
+.site-nav ul {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      }
+
+.site-nav ul li {
+      display: block;
+      list-style: none outside;
+      margin: 0 0 0 0.5em;
+      }
+
+.site-nav ul li a {
+      display: block;
+      padding: 0.5em 1em;
+      color: black;
+      outline: none;
+      }
+
+.site-nav ul li a:focus,
+.site-nav ul li a:hover {
+      color: white;
+      background: purple;
+      border-radius: 0.5em;
+      }
+
+
+.site-header a {
+      text-decoration: none;
+      color: black;
+      }
+
+.site-branding .site-title {
+      margin: 0;
+      padding: 1.2rem 0 0 0;
+      font-size: 3rem;
+      font-family: Georgia, serif;
+      }
+
+.site-branding .site-title a {
+      color: purple;
+      line-height: 1;
+      }
+
+.site-description {
+      text-transform: uppercase;
+      font-family: 'PT Sans Narrow', serif;
+      font-size: 1.15em;
+      line-height: 0.6;
+      }
+
