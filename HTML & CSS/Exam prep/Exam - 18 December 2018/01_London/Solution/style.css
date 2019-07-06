@@ -1,0 +1,61 @@
+@import url('typography.css');
+
+.wrapper {
+      width: 85em;
+      margin: 3em auto;
+      display: flex;
+      justify-content: center;
+      }
+
+.cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 65%;
+      }
+
+.card {
+      flex: 0 0 48%;
+      overflow: hidden;
+      border-radius: 1em;
+      margin-bottom: 1em;
+      border: 1px solid #858585;
+      }
+
+.card img {
+      width: 100%;
+      height: auto;
+      }
+
+.card h4 {
+      padding: 0.5em;
+      }
+
+.list {
+      margin-left: 3em;
+      }
+
+.list ul {
+      margin: 2em 0 0 0;
+      padding: 0;
+      }
+
+.list li {
+      margin: 1em 0 0 0;
+      padding: 0;
+      list-style: none outside;
+      ;
+      }
+
+.list a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.5em;
+      }
+
+.list a:before {
+      font-family: "Font Awesome 5 Free";
+      content: '\f0a9';
+      font-weight: bold;
+      padding-right: 0.5em;
+      }

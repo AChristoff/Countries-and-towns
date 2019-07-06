@@ -1,0 +1,239 @@
+@import "typography.css";
+
+.site {
+      max-width: 80em;
+      margin: 0 auto;
+      }
+
+li { list-style: none outside; }
+
+a {
+      text-decoration: none;
+      color: inherit;
+      }
+
+button {
+      background-color: rgba(0, 0, 0, 0);
+      padding: 0.5em 1em;
+      border: 2px solid #FFFFFF;
+      font-weight: bold;
+      color: #FFFFFF;
+      font-size: 1.1em;
+      cursor: pointer;
+      }
+
+.site-header {
+      position: relative;
+      }
+
+.site-logo {
+      background: rgb(149, 101, 28);
+      background: linear-gradient(0deg, rgba(149, 101, 28, 1) 0%, rgba(183, 140, 35, 1) 63%);
+      padding: 1.75em 2em;
+      width: 13em;
+      position: absolute;
+      top: 0;
+      left: 6em;
+      z-index: 100;
+      box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.75);
+      }
+
+.site-logo img {
+      width: 100%;
+      height: auto;
+      }
+
+.site-nav {
+      display: flex;
+      width: 60%;
+      margin-left: auto;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      margin-right: 6em;
+      font-size: 0.9em;
+      }
+
+.site-nav ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      }
+
+.site-nav .site-btns {
+      margin-bottom: 0.5em;
+      }
+
+.site-btns li {
+      text-align: center;
+      line-height: 2;
+      display: block;
+      }
+
+.site-btns a {
+      display: block;
+      padding: 0.8em;
+      }
+
+.site-btns a:hover,
+.site-btns a:focus {
+      background-color: #B78C23;
+      color: #FFFFFF;
+      }
+
+.site-btns i {
+      font-size: 1.5em;
+      padding: 0.2em 0;
+      }
+
+.location-btns li {
+      display: block;
+      margin: 0;
+      }
+
+.location-btns a {
+      display: block;
+      padding: 0.5em 0.8em;
+      }
+
+.location-btns a:hover {
+      background-color: #B78C23;
+      color: #FFFFFF;
+      }
+
+.banner {
+      background: transparent url(../img/slider.jpg) 50% 50% no-repeat;
+      background-size: 125%;
+      height: 32em;
+      position: relative;
+      }
+
+.banner-wrapper {
+      background: rgba(0, 0, 0, 0.7);
+      color: #FFFFFF;
+      padding: 1.5em;
+      width: 30em;
+      position: absolute;
+      top: 31%;
+      left: 6em;
+      }
+
+.banner-wrapper h4 {
+      margin: 0.8em 0 1em 0;
+      }
+
+.banner-wrapper p {
+      width: 90%;
+      }
+
+.banner-wrapper button {
+      color: #FBA012;
+      }
+
+.banner-wrapper button:hover {
+      background-color: #FFFFFF;
+      }
+
+.card {
+      background: rgb(149, 101, 28);
+      background: linear-gradient(90deg, rgba(149, 101, 28, 1) 0%, rgba(183, 140, 35, 1) 63%);
+      color: #FFFFFF;
+      padding: 2em 0;
+      text-align: center;
+      }
+
+.card ul {
+      width: 38%;
+      margin: 0 auto;
+      padding: 0;
+      text-align: left;
+      }
+
+.card button:hover,
+.newsletter button:hover {
+      background-color: #FFFFFF;
+      color: #B78C23;
+      }
+
+.card li:not(last-child) {
+      margin-bottom: 1em;
+      }
+
+.card li:before {
+      font-family: "Font Awesome 5 Free";
+      content: '\f0a4';
+      padding-right: 0.5em;
+      }
+
+.main-section {
+      text-align: center;
+      padding: 2em 0;
+      }
+
+.main-section h1 {
+      width: 70%;
+      margin: 0 auto 1em auto;
+      }
+
+.spots-wrapper {
+      display: flex;
+      justify-content: space-between;
+      max-width: 90%;
+      margin: 0 auto;
+      }
+
+.spots {
+      flex: 0 0 12em;
+      }
+
+.spots p {
+      font-size: 0.8em;
+      }
+
+.img-wrapper {
+      width: 12em;
+      height: 12em;
+      overflow: hidden;
+      border-radius: 50%;
+      background-color: #FFFFFF;
+      position: relative;
+      border: 3px solid #4E5774;
+      margin-bottom: 1em;
+      }
+
+.img-wrapper img {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      background-color: black;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 3px solid rgba(255, 255, 255, 1);
+      border-radius: 50%;
+      }
+
+.newsletter {
+      background-color: #B78C23;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 5em;
+      padding: 0 2em;
+      }
+
+.newsletter p {
+      padding: 0;
+      margin: 0;
+      font-weight: bold;
+      }
+
+.site-footer {
+      text-align: center;
+      padding: 1em 0;
+      }
+
+.site-footer p {
+      padding: 0;
+      margin: 0;
+      }
