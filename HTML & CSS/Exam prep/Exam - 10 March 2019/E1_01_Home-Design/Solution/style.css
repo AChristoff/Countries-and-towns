@@ -1,0 +1,92 @@
+@import url("typography.css");
+
+body {
+      background-color: #F5F5F5;
+      }
+
+.site {
+      max-width: 90vw;
+      margin: 0 auto;
+      text-align: center;
+      }
+
+.homes-list {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      }
+
+.home {
+      flex: 0 0 27em;
+      background: #FFFFFF;
+      border-radius: 2em;
+      overflow: hidden;
+      height: 30em;
+      margin: 0 1em;
+      }
+
+.img-container {
+      overflow: hidden;
+      height: 50%;
+      }
+
+img {
+      width: 100%;
+      height: auto;
+      }
+
+h3 {
+      border-bottom: 1px solid #CB2027;
+      font-weight: bold;
+      padding-bottom: 0.5em;
+      }
+
+header {
+      margin-top: 3em;
+      font-weight: bold;
+      letter-spacing: 0.2em;
+      }
+
+header h1 {
+      padding: 0;
+      margin: 0;
+      }
+
+header p {
+      color: #CB2027;
+      font-size: 1.8em;
+      padding: 0 0 1em 7em;
+      }
+
+.content {
+      padding: 0.7em 1.5em 1.5em 1.5em;
+      display: flex;
+      flex-direction: column;
+      height: 12em;
+      }
+
+.content p {
+      font-size: 1.1em;
+      padding: 0;
+      }
+
+.continue {
+      text-decoration: none;
+      color: #000000;
+      margin-top: auto;
+      font-size: 1.1em;
+      }
+
+.continue:after {
+      padding-left: 0.7em;
+      display: inline-block;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      content: '\f138';
+      color: #CB2027;
+      }
+
+
+.home-description {
+      margin-bottom: 2em;
+      }

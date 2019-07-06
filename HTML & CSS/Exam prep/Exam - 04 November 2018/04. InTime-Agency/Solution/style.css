@@ -1,0 +1,240 @@
+@import url('typography.css');
+
+.site {
+      max-width: 80em;
+      margin: 0 auto;
+      }
+
+.wrapper {
+      max-width: 60em;
+      margin: 0 auto;
+      }
+
+ul {
+      padding: 0;
+      margin: 0;
+      }
+
+ul li {
+      padding: 0;
+      margin: 0;
+      list-style: none outside;
+      }
+
+a {
+      text-decoration: none;
+      color: inherit;
+      }
+
+button {
+      border: none;
+      color: #FFFFFF;
+      }
+
+button:hover {
+     cursor: pointer;
+      }
+
+.site-header {
+      padding: 0.7em 0;
+      }
+
+.site-header .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      }
+
+.site-logo span {
+      color: #34B1C4;
+      }
+
+.site-header ul {
+      display: flex;
+      }
+
+.site-header li {
+      margin-left: 2em;
+      }
+
+.underline:after {
+      display: block;
+      content: '';
+      height: 3px;
+      width: 5em;
+      background: #34B1C4;
+      margin: 0.75em auto 1.5em auto;
+      }
+
+.site-nav li a {
+      padding-bottom: 0.25em;
+      }
+
+.site-nav li a:hover,
+.site-nav li a:focus {
+      border-bottom: 3px solid #34B1C4;
+      }
+
+.site-banner {
+      position: relative;
+      }
+
+.site-banner h1 {
+      line-height: 1.2;
+      margin: 0 0 0.3em 0;
+      }
+
+.site-banner button {
+      font-size: 1.5em;
+      background-color: #008CBA;
+      height: 1.8em;
+      width: 10em;
+      border-radius: 0.9em;
+      }
+
+.site-banner img {
+      width: 100%;
+      height: auto;
+      }
+
+.site-banner-content {
+      position: absolute;
+      top: 40%;
+      color: #FFFFFF;
+      background-color: rgba(0, 0, 0, 0.6);
+      width: 26em;
+      padding: 1em;
+      }
+
+.site-welcome {
+      text-align: center;
+      padding: 2em 0 3em 0;
+      }
+
+.site-welcome button,
+.site-services button {
+      background-color: #454545;
+      font-size: 1.2em;
+      }
+
+.site-welcome button {
+      height: 2.5em;
+      width: 9em;
+      border-radius: 1.25em;
+      }
+
+.site-services {
+      background-color: #EEF0F1;
+      text-align: center;
+      padding: 2em 0 3em 0;
+      }
+
+.site-services .underline:after {
+      background: #454545;
+      }
+
+.site-services-wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      }
+
+.service {
+      flex: 0 0 31%;
+      background: #FFFFFF;
+      border-radius: 0.4em;
+      overflow: hidden;
+      }
+
+.service h5 {
+      margin-top: 1em;
+      }
+
+.service img {
+      width: 100%;
+      height: auto;
+      }
+
+.service p {
+      width: 80%;
+      margin: 0 auto;
+      }
+
+.service button {
+      padding: 0.5em 1em;
+      border-radius: 0.3em;
+      margin-bottom: 2em;
+      }
+
+.site-newsletter {
+      background-color: #393F43;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 2em 0 3em 0;
+      }
+
+.site-newsletter .underline:after {
+      background: #FFFFFF;
+      margin: 0.75em auto 1.2em auto;
+      }
+
+.site-newsletter input {
+      background-color: #545A5E;
+      border-radius: 0.2em;
+      border: none;
+      padding-left: 0.8em;
+      height: 100%;
+      width: 50%;
+      margin-right: 0.5em;
+      }
+
+.site-newsletter button {
+      background-color: #6BBFFF;
+      border-radius: 0.2em;
+      padding: 0.6em 2em;
+      height: 100%;
+      }
+
+.newsletter-wrapper {
+      height: 2.8em;
+      }
+
+.site-footer {
+      background-color: #2F3539;
+      color: #FFFFFF;
+      padding: 3em 0 0 0;
+      }
+
+.site-footer ul li {
+      margin-top: 0.5em;
+      }
+
+.site-footer .wrapper {
+      display: flex;
+      justify-content: space-between;
+      }
+
+.footer-social-media ul {
+      display: flex;
+      }
+
+.footer-social-media li {
+      font-size: 1.2em;
+      margin-right: 1em;
+      }
+
+.copyright {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #262B2F;
+      margin-top: 2em;
+      }
+
+.copyright p {
+      padding: 1em 0;
+      }
+
+.copyright p a {
+      color: #34B1C4;
+      }
