@@ -11,19 +11,19 @@
       }
 
 html {
-      font: 15px/1.5 'Raleway', sans-serif;
+      font: 14px/1.5 'Raleway', sans-serif;
       }
 
 @media (min-width: 600px) {
-      html {font-size: 17px; }
+      html {font-size: 16px; }
       }
 
 @media (min-width: 1000px) {
-      html {font-size: 19px; }
+      html {font-size: 18px; }
       }
 
 @media (min-width: 1600px) {
-      html {font-size: 21px; }
+      html {font-size: 20px; }
       }
 
 body, form, input, option, select, textarea, table, th, td {
