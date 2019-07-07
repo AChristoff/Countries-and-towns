@@ -3,8 +3,37 @@
 <head>
    <meta charset="UTF-8">
    <title>Sign Up Form</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   <div class="site">
+      <form action="#" class="form">
+         <h2>Form</h2>
    
+         <p class="input-with-icon">
+            <input type="text" name="name" id="name" placeholder="Dario Petrov">
+            <label for="name"><span class="star">*</span> <span class="label">Name:</span></label>
+         </p>
+   
+         <p class="input-with-icon">
+            <input type="email" name="email" id="email" placeholder="dario@mail.com">
+            <label for="email"><span class="star">*</span> <span class="label">Email:</span></label>
+         </p>
+   
+   
+         <p class="input-with-icon">
+            <input type="number" name="phone" id="phone" placeholder="+359 885 445 445">
+            <label for="phone"><span class="star">*</span> <span class="label">Phone number:</span></label>
+         </p>
+         
+         
+         <p class="input-with-icon">
+            <input type="password" name="password" id="password" placeholder="********">
+            <label for="password"><span class="star">*</span> <span class="label">Password </span><span class="min-chars">(minimum 6 characters):</span></label>
+         </p>
+         
+         <input type="submit" value="Sign up">
+      </form>
+   </div>
 </body>
 </html>

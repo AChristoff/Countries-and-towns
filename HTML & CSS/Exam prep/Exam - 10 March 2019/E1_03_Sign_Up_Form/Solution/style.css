@@ -1,1 +1,180 @@
 @import url('typography.css');
+
+.site {
+      width: 80em;
+      margin: 0 auto;
+      }
+
+form {
+      padding: 2em 25em 5em 25em;
+      margin: 4rem auto;
+      width: 100%;
+      background-color: #EBF0F0;
+      text-align: center;
+      }
+
+form h2 {
+      font-size: 3em;
+      font-weight: 600;
+      color: #464646;
+      border-bottom: 3px solid #007ACC;
+      padding: 0.3em;
+      margin: 0.5em 0 0.8em 0;
+      }
+
+form label {
+      opacity: 0.8;
+      }
+
+form input[type="submit"]:hover {
+      cursor: pointer;
+      }
+
+.star {
+      color: #FF161E;
+      }
+
+.min-chars {
+      font-size: 0.9em;
+      opacity: 0.25;
+      }
+
+form p {
+      font-weight: bold;
+      margin-bottom: 0.25em;
+      }
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+      width: 100%;
+      padding: 0.6em;
+      border-radius: 0.4rem;
+      border: 1px solid #C7E0EA;
+      outline: none;
+      }
+
+input[placeholder] {
+      font-weight: normal;
+      }
+
+input[placeholder]:hover {
+      color: #007ACC;
+      }
+
+.input-with-icon {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      align-items: flex-start;
+      }
+
+.label {
+      font-size: 1.25em;
+      font-weight: normal;
+      opacity: 0.7;
+      }
+
+input:hover::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder {
+      color: #007ACC;
+      opacity: 0.7;
+      }
+
+label[for="name"],
+label[for="email"],
+label[for="phone"],
+label[for="password"] {
+      order: 0;
+      margin-left: -0.6em;
+      }
+
+label:after {
+      font-family: "Font Awesome 5 Free";
+      position: absolute;
+      top: 2.25em;
+      left: 0.7em;
+      font-size: 1.25em;
+      }
+
+label[for="name"]:after { content: "\f007"; }
+
+label[for="email"]:after {
+      content: "\f0e0";
+      top: 2.35em;
+      }
+
+label[for="phone"]:after {
+      content: "\f3cd";
+      top: 2.29em;
+      left: 0.85em;
+      }
+
+label[for="password"]:after { content: "\f023"; }
+
+label[for="name"]:before,
+label[for="email"]:before,
+label[for="phone"]:before,
+label[for="password"]:before {
+      content: "|";
+      position: absolute;
+      top: 2.4em;
+      left: 2.3em;
+      font-size: 1.15em;
+      }
+
+#name,
+#email,
+#phone,
+#password {
+      order: 1;
+      padding-left: 3.5em;
+      margin-top: 0.5em;
+      outline: none;
+      }
+
+#name:hover,
+#name:hover + label[for="name"]:after,
+#name:hover + label[for="name"]:before,
+#name:focus,
+#name:focus + label[for="name"]:after,
+#name:focus + label[for="name"]:before,
+#email:hover,
+#email:hover + label[for="email"]:after,
+#email:hover + label[for="email"]:before,
+#email:focus,
+#email:focus + label[for="email"]:after,
+#email:focus + label[for="email"]:before,
+#phone:hover,
+#phone:hover + label[for="phone"]:after,
+#phone:hover + label[for="phone"]:before,
+#phone:focus,
+#phone:focus + label[for="phone"]:after,
+#phone:focus + label[for="phone"]:before,
+#password:hover,
+#password:hover + label[for="password"]:after,
+#password:hover + label[for="password"]:before,
+#password:focus,
+#password:focus + label[for="password"]:after,
+#password:focus + label[for="password"]:before {
+      border-color: #007ACC;
+      color: #007ACC;
+      }
+
+input[type="submit"] {
+      background-color: #007ACC;
+      color: #FFFFFF;
+      border: none;
+      padding: 0.25em;
+      border-radius: 0.4em;
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.6em;
+      outline: none;
+      }
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+      background-color: #005FA6;
+      }
