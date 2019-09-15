@@ -1,0 +1,186 @@
+@import url(typography.css);
+
+.site {
+      width: 65em;
+      margin: 0 auto;
+      }
+
+.site-header {
+      width: 100%;
+      height: 50em;
+      background: url('../Requirements-and-Resources/image/image.jpg') no-repeat center left;
+      background-size: 100%;
+      position: relative;
+      }
+
+.company-name {
+      position: relative;
+      top: 2em;
+      left: 4em;
+      width: 15em;
+      height: 12em;
+      box-shadow: 0 0 0.5em 0 rgba(0,0,0, 0.5);
+      padding: 1.5rem 3em 1em 1em;
+      }
+
+.company-name h1 {
+      border-bottom: #FFFFFF 2px solid;
+      padding-bottom: 0.5em;
+      margin-bottom: 0.2em;
+      width: 80%;
+      }
+
+.featured {
+      position: absolute;
+      top: 20%;
+      right: 2em;
+      width: 20em;
+      color: #FFFFFF;
+      padding: 1em;
+      text-align: right;
+      text-shadow: 2px 1px 2px #454545;
+      background: rgb(186,177,173);
+      background: linear-gradient(90deg, rgba(186,177,173,1) 4%, rgba(201,199,198,1) 100%);
+      box-shadow: 0 0 0.6em 0 rgba(0,0,0, 0.6);
+      }
+
+.featured p {
+      padding-bottom: 0.2em;
+      }
+
+p.quote {
+      color: #8D8581;
+      text-shadow: 0 0 0.5em 0 rgba(0,0,0, 0.3);
+      font-size: 5em;
+      padding: 0;
+      margin: 3rem 0 0 0;
+      line-height: 0.1;
+
+      }
+
+.site-content {
+      display: flex;
+      }
+
+.site-main {
+      background-color: #F2F0F3;
+      }
+
+section ul span {
+      text-transform: uppercase;
+      font-weight: bold;
+      }
+
+.site-main ul {
+      padding: 0;
+      margin: 0;
+      }
+
+.site-main li {
+      list-style: none outside;
+      }
+
+.site-main h2 {
+      font-size: 2.4em;
+      text-transform: uppercase;
+      margin: 1em 0 0.7em 0;
+      }
+
+.services,
+.contacts {
+      padding: 0.5em 3em;
+      }
+
+.services li {
+      margin-bottom: 2em;
+      }
+
+.services li:before {
+      font-family: "Font Awesome 5 Free";
+      content: '\f0a9';
+      font-weight: bold;
+      margin-right: 1em;
+      }
+
+.contacts ul {
+      display: flex;
+      flex-wrap: wrap;
+      }
+
+.contacts li {
+      margin-right: 0.3em;
+      }
+
+.contacts h2 {
+      margin: 0.5em 0;
+      }
+
+.site-aside {
+      background-color: #BAB1AD;
+      flex: 0 0 33%;
+      padding: 3em 2em;
+      display: flex;
+      flex-direction: column;
+      }
+
+.site-aside section {
+      flex: 1 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }
+
+.info {
+      text-transform: uppercase;
+      font-weight: 300;
+      }
+
+.numbers {
+      color: #FFFFFF;
+      font-size: 4em;
+      font-weight: 100;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      }
+
+a {
+      text-decoration: none;
+      color: inherit;
+      }
+
+.contacts p {
+      color: #FFFFFF;
+      width: 100%;
+      height: 3em;
+      margin: 1em 0;
+      }
+
+label[for="email"] {
+      display: none;
+      }
+
+input[type="email"] {
+      background-color: #BAB1AD;
+      color: #FFFFFF;
+      padding: 0.5em 1em;
+      border-radius: 0.4em;
+      border: none;
+      height: 2.5em;
+      width: 55%;
+      margin-right: 0.5em;
+      }
+
+::placeholder {
+      color: #FFFFFF;
+      }
+
+input[type="submit"] {
+      height: 2.5em;
+      background-color: #67784D;
+      border-radius: 0.4em;
+      border: none;
+      width: 20%;
+      color: #FFFFFF;
+      }
+

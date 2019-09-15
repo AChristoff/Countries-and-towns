@@ -1,0 +1,28 @@
+@import url("typography.css");
+
+
+html {
+    color: #212121;
+}
+
+body {
+    max-width: 60rem;
+    margin: auto;
+}
+
+/* Float cleaner fot the parent */
+.cleaner:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Center inner element inside the parent with position: relative; */
+.centerElement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+<script src=""></script>

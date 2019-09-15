@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Customer Details Form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form>
+      <fieldset>
+         <legend>Customer Details</legend>
+         <p>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="George">
+         </p>
+         <p>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Devis">
+         </p>
+         <p id="gender-selector"><span id="gender">Gender</span>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+         </p>
+         <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com">
+         </p>
+         <p>
+            <label for="phone">Phone</label>
+            <input type="number" id="phone" name="phone" placeholder="+359885236225">
+         </p>
+         <p>
+            <label for="town">Town</label>
+            <select name="town" id="town">
+               <option value="varna">Varna</option>
+               <option value="varna">Burgas</option>
+               <option value="varna">Plovdiv</option>
+               <option value="varna">Sofia</option>
+            </select>
+         </p>
+         <p>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="18" max="120">
+         </p>
+         <p>
+            <label for="language">Language</label>
+            <input type="text" id="language" name="language">
+         </p>
+         <p id="message-area">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" cols="35" rows="5" placeholder="More information..."></textarea>
+         </p>
+         <p id="checkbox">
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree">I agree the Terms and Conditions</label>
+         </p>
+         <p>
+            <input type="submit" value="Send">
+         </p>
+      </fieldset>
+   </form>
+</body>
+</html>

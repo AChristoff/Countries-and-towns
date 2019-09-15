@@ -1,0 +1,49 @@
+html {
+      font: 16px/1.5 Verdana, sans-serif;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      }
+
+*, *:before, *:after {
+      font: inherit;
+      margin: inherit;
+      padding: inherit;
+      box-sizing: inherit;
+      }
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: Georgia, serif;
+      line-height: 1.2;
+      margin: 0.4em 0;
+      font-weight: bold;
+      }
+
+h1 { font-size: 2.80rem; }
+
+h2 { font-size: 2.30rem; }
+
+h3 { font-size: 2.00rem; }
+
+h4 { font-size: 1.70rem; }
+
+h5 { font-size: 1.45rem; }
+
+h6 { font-size: 1.25rem; }
+
+body {
+      background: rgb(238, 238, 238);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+div.card {
+      max-width: 30rem;
+      height: 12rem;
+      background: rgb(255, 255, 255);
+      box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.5);
+      padding: 0.5rem 1rem;
+      border-radius: 1em;
+      }

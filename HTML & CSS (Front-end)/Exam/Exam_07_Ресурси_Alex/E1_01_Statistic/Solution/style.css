@@ -1,0 +1,49 @@
+@import "typography.css";
+
+.wrapper {
+      position: relative;
+      max-width: 70em;
+      margin: 2em auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: url('../Requirements-and-Resources/images/image.jpg') no-repeat center center;
+      background-size: 100%;
+      height: 14em;
+      }
+
+.wrapper:after {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(43, 72, 117, 0.85);
+      }
+
+.statistic {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      }
+
+i {
+      color: #EC8421;
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+      }
+
+.fa-times {
+      z-index: 10;
+      position: absolute;
+      top: 0.5em;
+      right: 0.5em;
+      color: #FFFFFF;
+      font-size: 1.5em;
+      }
+
+p {
+      padding: 0;
+      }

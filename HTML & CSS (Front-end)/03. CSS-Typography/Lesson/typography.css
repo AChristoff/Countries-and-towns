@@ -1,0 +1,15 @@
+html {
+    font: 16px/1.5 Heverica, Verdana, sans-serif;
+}
+
+body, input, textarea {
+    font: inherit;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+li {
+    list-style: disc inside;
+}

@@ -1,0 +1,64 @@
+html {
+      font: 16px/1.5 Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+
+*, *:before, *:after {
+      font: inherit;
+      margin: inherit;
+      padding: inherit;
+      box-sizing: inherit;
+      }
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: Georgia, serif;
+      line-height: 1.2;
+      margin: 0.5em 0;
+      }
+
+h1 { font-size: 2.80rem; }
+
+h2 { font-size: 2.30rem; }
+
+h3 { font-size: 2.00rem; }
+
+h4 { font-size: 1.70rem; }
+
+h5 { font-size: 1.45rem; }
+
+h6 { font-size: 1.25rem; }
+
+body {
+      display: flex;
+      background: rgb(238, 238, 238);
+      height: 100vh;
+      flex-direction: column;
+      }
+
+
+
+header {
+      border-bottom: 2px solid #000;
+      margin-bottom: 3rem;
+      }
+
+header *, main *, footer * {
+      padding: 0 2rem;
+      }
+
+p {
+      padding: 1rem 2rem;
+      }
+
+header > h1 {
+      font-family: Verdana, sans-serif;
+      font-weight: bold;
+      }
+
+footer {
+      margin-top: auto;
+      color: rgb(255, 255, 255);
+      background-color: rgb(102, 102, 102);
+      }

@@ -1,0 +1,52 @@
+html {
+      font-size: 20px;
+      line-height: 1.5;
+      font-family: Helvetica, sans-serif;
+      box-sizing: border-box;
+      }
+
+div {
+      display: flex;
+      max-width: 15vw;
+      height: 35rem;
+      margin: 0 auto;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      }
+
+span {
+      box-sizing: inherit;
+      border: 1px solid black;
+      padding: 0.5rem 0.3rem;
+      margin: 0.5rem;
+      flex: 0 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+
+.S { order: 0; }
+
+.e { order: 1; }
+
+.m { order: 2; }
+
+.a { order: 3; }
+
+.n { order: 4; }
+
+.t { order: 5; }
+
+.i { order: 6; }
+
+.c { order: 7; }
+
+.H { order: 8; }
+
+.T { order: 9; }
+
+.M { order: 10; }
+
+.L { order: 11; }

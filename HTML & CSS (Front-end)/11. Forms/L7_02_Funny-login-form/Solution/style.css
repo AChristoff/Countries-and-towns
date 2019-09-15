@@ -1,0 +1,117 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*, *:before, *:after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font: inherit;
+      }
+
+html {
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      line-height: 1.2;
+      color: #5E5E5E;
+      }
+
+body {
+      height: 100vh;
+      background-image: linear-gradient(to right top, #5FFBF1, #00E2FE, #00C6FF, #00A6FF, #0080FF, #456DFF, #7054FA, #952AED, #AF25F2, #C91FF7, #E215FB, #FA01FE);
+      }
+
+div.container > form {
+      padding: 2.5em 5em;
+      }
+
+form {
+      display: flex;
+      justify-items: center;
+      margin: 4rem auto;
+      width: 30rem;
+      height: 36rem;
+      background-color: #F9F9F9;
+      border: 1px solid #707070;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 0.7em 0 rgba(0, 0, 0, 0.2);
+      }
+
+fieldset {
+      flex: 1 1 auto;
+      border: none;
+      }
+
+legend {
+      font-size: 2em;
+      font-family: Georgia, serif;
+      margin: 0 auto;
+      }
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+      width: 100%;
+      height: 3em;
+      color: #F9F9F9;
+      border-radius: 0.4em;
+      }
+
+input[type="submit"] {
+      background-color: #333333;
+      border: 1px solid #333333;
+      }
+
+input[type="text"],
+input[type="password"] {
+      padding: 0 1em;
+      color: inherit;
+      background-color: #F7F7F7;
+      border-width: 1px;
+      margin-top: 0.4em;
+      outline: none;
+      }
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+      border: 1px solid #FB01FF;
+      }
+
+#media-buttons {
+      margin-top: 3.5em;
+      display: flex;
+      justify-content: space-between;
+      }
+
+button {
+      color: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48%;
+      height: 3.5em;
+      border: none;
+      border-radius: 0.4em;
+      }
+
+button i {
+      font-size: 1.4em;
+      margin-right: 0.4em;
+      }
+
+#facebook {
+      color: #FFFFFF;
+      background: #3B5998;
+      }
+
+#facebook:hover,
+#google:hover{
+      color: #FFFFFF;
+      background: linear-gradient(45deg, rgba(4,215,223,1) 1%, rgba(251,1,255,1) 91%);
+      }
+
+#google {
+      background: #FFFFFF;
+      box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.15);
+      }
+
+p { margin-bottom: 3em; }
+

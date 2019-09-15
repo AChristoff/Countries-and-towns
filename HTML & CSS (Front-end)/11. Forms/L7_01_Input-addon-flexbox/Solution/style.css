@@ -1,0 +1,174 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+*, *:before, *:after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font: inherit;
+      }
+
+html {
+      font: 30px/1.5 Arial, sans-serif;
+      }
+
+form {
+      margin: 4rem auto;
+      width: 29rem;
+      height: 17.5rem;
+      background-color: #F9F9F9;
+      border: 1px solid #707070;
+      border-radius: 0.3rem;
+      box-shadow: 0 0 0.7em 0 rgba(0, 0, 0, 0.2);
+      }
+
+form legend {
+      display: flex;
+      align-items: center;
+      margin-top: -1.25em;
+      margin-left: -1px;
+      padding-left: 1em;
+      width: 10rem;
+      height: 2.5rem;
+      background-color: #FFFFFF;
+      border: 1px solid #707070;
+      border-radius: 0.3rem;
+      box-shadow: 0 0 0.7em 0 rgba(0, 0, 0, 0.2);
+      }
+
+fieldset label {
+      font-weight: bold;
+      }
+
+fieldset input[type="submit"] {
+      width: 4em;
+      height: 1.75em;
+      }
+
+fieldset input[type="submit"]:hover {
+      cursor: pointer;
+      }
+
+/*
+* input with icon      1
+*/
+
+/*fieldset p {*/
+/*      font-weight: bold;*/
+/*      margin-bottom: 1.25em;*/
+/*      }*/
+
+/*input[type="password"] {*/
+/*      width: 100%;*/
+/*      padding: 0.4em;*/
+/*      border-radius: 0.4rem;*/
+/*      border: 1px solid #E2E2E2;*/
+/*      outline: none;*/
+/*      }*/
+
+/*.input-icon {*/
+/*      display: flex;*/
+/*      flex-direction: column;*/
+/*      position: relative;*/
+/*      }*/
+
+/*label[for="password"] {*/
+/*      order: 0;*/
+/*      }*/
+
+/*label[for="password"]:after {*/
+/*      font-family: "Font Awesome 5 Free";*/
+/*      content: "\f084";*/
+/*      position: absolute;*/
+/*      top: 2em;*/
+/*      left: 0;*/
+/*      border: 1px solid #E2E2E2;*/
+/*      border-bottom-left-radius: 0.4em;*/
+/*      border-top-left-radius: 0.4em;*/
+/*      border-right: none;*/
+/*      padding: 0.4em 1em;*/
+/*      }*/
+
+/*#password {*/
+/*      order: 1;*/
+/*      padding-left: 3.5em;*/
+/*      margin-top: 0.5em;*/
+/*      }*/
+
+/*#password:hover,*/
+/*#password:hover + label[for="password"]:after,*/
+/*#password:focus,*/
+/*#password:focus + label[for="password"]:after {*/
+/*      border-color: #009900;*/
+/*      color: #009900;*/
+/*      }*/
+
+
+/*
+* input with icon      3
+*/
+
+fieldset p {
+      font-weight: bold;
+      margin-bottom: 1.25em;
+      }
+
+input[type="password"] {
+      width: 100%;
+      padding: 0.4em;
+      border-radius: 0.4rem;
+      border: 1px solid #E2E2E2;
+      outline: none;
+      }
+
+.input-icon {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      }
+
+label[for="password"] {
+      order: 0;
+      }
+
+label[for="password"]:after {
+      font-family: "Font Awesome 5 Free";
+      content: "\f084";
+      position: absolute;
+      top: 2em;
+      left: 0;
+      border: 1px solid #009900;
+      background-color: #009900;
+      color: #FFFFFF;
+      border-bottom-left-radius: 0.4em;
+      border-top-left-radius: 0.4em;
+      border-right: none;
+      padding: 0.4em 1em;
+      }
+
+#password {
+      order: 1;
+      padding-left: 3.5em;
+      margin-top: 0.5em;
+      }
+
+#password:hover,
+#password:hover + label[for="password"]:after,
+#password:focus,
+#password:focus + label[for="password"]:after {
+      border-color: #009900;
+      }
+
+
+#password:hover + label[for="password"]:after,
+#password:focus + label[for="password"]:after {
+      /*color: #009900;*/
+      }
+
+
+
+
+
+
+
+
+

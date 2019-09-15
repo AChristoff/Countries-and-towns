@@ -1,0 +1,41 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 8px;
+}
+
+th {
+    background-color: #CCCCCC;
+}
+
+tr:nth-child(odd) {
+    background: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+blockquote {
+    padding: 5px 0 5px 30px;
+    border-left: 5px solid rgb(221,221,221);
+    font-style: italic;
+}
+
+#author {
+    text-align: right;
+}

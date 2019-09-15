@@ -1,0 +1,70 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+/*Typography & Box sizing*/
+
+html {
+      font: 16px/1.5 Helvetica, sans-serif;
+      color: #091123;
+
+      box-sizing: border-box;
+      }
+
+/* Reset & Inherit */
+
+*, *:before, *:after {
+      margin: 0;
+      padding: 0;
+
+      font: inherit;
+      color: inherit;
+
+      box-sizing: inherit;
+      }
+
+ul {
+      display: inline-block;
+      }
+
+li {
+      display: inline-block;
+      list-style: none;
+      margin: 2em;
+      background-color: #EFEFEF;
+      padding: 0.5em;
+      border-radius: 50%;
+      width: 4em;
+      height: 4em;
+      position: relative;
+      }
+
+a {
+      font-size: 2em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      }
+
+ul li:nth-child(1):hover {
+      color: #3B5998;
+      }
+
+ul li:nth-child(2):hover {
+      color: #00ACED;
+      }
+
+ul li:nth-child(3):hover {
+      color: #DD4B39;
+      }
+
+ul li:nth-child(4):hover {
+      color: #007BB6;
+      }
+
+ul li:nth-child(5):hover {
+      color: #5681A5;
+      }
+
+
+

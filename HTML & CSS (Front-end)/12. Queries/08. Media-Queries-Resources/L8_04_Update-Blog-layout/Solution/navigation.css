@@ -1,0 +1,131 @@
+.site-header {
+      z-index: 1000;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      min-height: 4em;
+      display: flex;
+      background-image: linear-gradient(to right top,
+      rgba(16, 71, 83, 0.96),
+      rgba(0, 114, 117, 0.96),
+      rgba(0, 158, 120, 0.96),
+      rgba(42, 200, 92, 0.96),
+      rgba(168, 235, 18, 0.96)
+      );
+      margin-bottom: 2em;
+      box-shadow: 0 0.45em 0.45em -0.3em rgba(0, 0, 0, 0.3);
+      }
+
+.site-header .nav-wrapper {
+      display: flex;
+      justify-content: center;
+      }
+
+.site-header .nav-position {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: center;
+      max-width: 75em;
+      margin: 0 auto;
+      }
+
+.site-title a {
+      color: #F7F7F7;
+      padding: 0 0.4em 0 0;
+      }
+
+.nav {
+      display: none;
+      }
+
+.nav:after {
+      display: block;
+      height: 1px;
+      content: '';
+      }
+
+.nav ul {
+      display: block;
+      list-style: none outside;
+      padding: 0;
+      margin: 0;
+      }
+
+.nav li {
+      display: block;
+      margin: 1em;
+      padding: 0;
+      }
+
+.nav a {
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      background-color: #F7F7F7;
+      padding: 0.3em 0.5em;
+      border-radius: 0.3em;
+      outline: none;
+      }
+
+.nav a:focus,
+.nav a:hover {
+      box-shadow: 0 0 0.3em 0 rgba(0, 0, 0, 0.3);
+      color: #F7F7F7;
+      background-color: inherit;
+      }
+
+.nav > ul {
+      display: block;
+      }
+
+.site-title {
+      align-self: center;
+      line-height: 1;
+      padding: 0.35em 0;
+      font-size: 2.4rem;
+      }
+
+#nav-toggle {
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      }
+
+.nav-toggle-button {
+      margin: 1em 1em 1em auto;
+      padding: 0.35em 0.75em;
+      border-radius: 0.5em;
+      color: #091123;
+      background-color: #F7F7F7;
+      }
+
+.nav-toggle-button:hover {
+      box-shadow: 0 0 0.3em 0 rgba(0, 0, 0, 0.3);
+      color: #F7F7F7;
+      background-color: inherit;
+      }
+
+#nav-toggle:checked + .site-header {
+      display: block;
+      }
+
+#nav-toggle:checked + .site-header .nav {
+      display: block;
+      margin: 0 auto;
+      }
+
+#nav-toggle:checked + .site-header .nav ul > li {
+      width: 16.5em;
+      margin: 1em auto 1em 1em;
+      }
+
+#nav-toggle:checked + .site-header .nav-toggle-button {
+      box-shadow: 0 0 0.3em 0 rgba(0, 0, 0, 0.3);
+      color: #F7F7F7;
+      background-color: inherit;
+      margin: 1em 1em 1em 0;
+      }
+
+

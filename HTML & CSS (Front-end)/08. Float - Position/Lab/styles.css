@@ -1,0 +1,134 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&text=1234567890");
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      }
+
+html {
+      box-sizing: border-box;
+      font: 16px/1.5 Helvetica, Verdana, sans-serif;
+      }
+
+*, *:before, *:after {
+      box-sizing: inherit;
+      }
+
+/*
+div.box1 {
+    width: 80vw;
+    height: 80vh;
+    margin: 10vh auto;
+    background-color: grey;
+    position: relative;
+}
+
+div.box2 {
+    width: 10vw;
+    height: 10vw;
+    background-color: black;
+}
+
+
+div.box3 {
+    width: 10vw;
+    height: 10vw;
+    background-color: forestgreen;
+    position: fixed;
+    bottom: 2vh;
+    right: 2vh;
+}
+
+
+div.children.centerElement {
+    width: 10vw;
+    height: 10vw;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+header {
+      background-color: rgb(33, 33, 33);
+      color: white;
+      height: 52px;
+      }
+
+.position {
+      width: 60rem;
+      height: 100%;
+      margin: auto;
+      position: relative;
+      }
+
+nav {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      }
+
+ul li a {
+      padding: 0.5em 1em;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      }
+
+nav ul li {
+      display: block;
+      list-style: none;
+      }
+
+nav > ul > li {
+      float: right;
+      }
+
+a:hover {
+      background-color: white;
+      color: rgb(33, 33, 33);
+      }
+
+.media {
+      background: cornflowerblue;
+      width: 80vw;
+      position: relative;
+      border-radius: 1.5rem;
+      margin: 2rem auto;
+      overflow: hidden;
+      }
+
+.media:before {
+      content: '';
+      display: block;
+      padding-top: 56.25%;
+      }
+
+.media:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+      }
+
+.media:hover:after {
+      opacity: 0;
+      }
+
+.media img {
+      width: 100%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      }
+
+
+
+

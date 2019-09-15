@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap');
+
+html {
+    font: 16px/1.5 "Raleway", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+* {
+    margin: inherit;
+    padding: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    color: #091123;
+    background-color: #F7F7F7;
+    margin-top: 2rem;
+}
+
+.site-content {
+    max-width: 80rem;
+    margin: auto;
+    color: rgb(51, 51, 51);
+}
+
+.main-content {
+    display: inline-block;
+    width: 65%;
+}
+
+.main-sidebar {
+    padding: 0;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+p#one {
+    font-family: "Open Sans", sans-serif;
+}
+
+p#two {
+    font-family: "PT Sans", sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font: 1em/1.2 Georgia, sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    padding: 0.25em 0 0.25em 0;
+    margin: 0 1rem;
+}
+
+h1 { font-size: 3.0em; }
+h2 { font-size: 2.4em; }
+h3 { font-size: 2.0em; }
+h4 { font-size: 1.7em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
+
+p, ul {
+    padding-bottom: 2em;
+    margin: 0 1em;
+}
+
+a {
+    margin: 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    padding: 0;
+    margin-left: 2em;
+}
+
+img {
+    width: 35rem;
+    height: auto;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-left: 0.5rem;
+}

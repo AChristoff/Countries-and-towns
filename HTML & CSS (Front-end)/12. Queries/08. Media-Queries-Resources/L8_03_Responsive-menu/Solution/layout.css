@@ -1,0 +1,9 @@
+body {
+      background: rgb(238, 238, 238);
+      }
+
+.site {
+      max-width: 64rem;
+      margin: 8em auto 0 auto;
+      padding: 0 4em;
+      }

@@ -1,0 +1,46 @@
+html {
+      font: 16px/1.5 Helvetica, sans-serif;
+      box-sizing: inherit;
+      }
+
+
+*, *:before, *:after {
+      font: inherit;
+      box-sizing: inherit;
+      }
+
+body {
+      display: flex;
+      flex-direction: column;
+      background: rgb(238, 238, 238);
+      padding: 2em 4em;
+      }
+
+header, main, aside, footer {
+      background-color: white;
+      border-radius: 0.5em;
+      margin: 1em;
+      box-shadow: 0 0 0.5em 0 rgba(0,0,0,0.5);
+      padding: 1em;
+      }
+
+.content {
+      display: flex;
+      height: 25em;
+      }
+
+header {
+      flex: 0 0 10em;
+      }
+
+main {
+      flex: 2 0 auto;
+      }
+
+aside {
+      flex: 1 0 auto;
+      }
+
+footer {
+      flex: 0 0 5em;
+      }

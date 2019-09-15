@@ -1,0 +1,169 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&text=1234567890");
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap');
+
+/*Typography & Box sizing*/
+
+html {
+      font: 16px/1.5 Helvetica, sans-serif;
+      color: #091123;
+      background-color: #F7F7F7;
+
+      box-sizing: border-box;
+      }
+
+/* Reset & Inherit */
+
+*, *:before, *:after {
+      margin: 0;
+      padding: 0;
+
+      font: inherit;
+      color: inherit;
+
+      box-sizing: inherit;
+      }
+
+/* More Typography */
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: Georgia, serif;
+      line-height: 1.1;
+      margin: 0.25em 0 0.5em 0;
+      }
+
+h1 { font-size: 2.40rem; }
+
+h2 { font-size: 2.10rem; }
+
+h3 { font-size: 2.90rem; }
+
+h4 { font-size: 1.70rem; }
+
+h5 { font-size: 1.45rem; }
+
+h6 { font-size: 1.25rem; }
+
+p, ul, ol {
+      padding-bottom: 1.5em;
+      }
+
+ul, ol {
+      padding-left: 2em;
+      }
+
+li {
+      padding-left: 0.5em;
+      }
+
+ul ul, ul ol, ol ul, ol ol {
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      }
+
+section > blockquote {
+      font-family: Georgia, serif;
+      padding: 0 0 0 2em;
+      margin: 0 2em !important;
+      font-style: italic;
+      opacity: 0.5;
+      border-left: 4px solid rgba(0, 0, 0, 0.2);
+      width: 25em;
+      }
+
+blockquote .quote:before, blockquote .quote:after {
+      content: '"';
+      padding: 0 0.2em;
+      }
+
+blockquote .author {
+      text-align: right;
+      }
+
+blockquote .author:before {
+      display: inline-block;
+      content: "‒";
+      padding-right: 0.5em;
+      }
+
+/* Layout */
+
+body {
+      background: rgb(238, 238, 238);
+      }
+
+.site-content {
+      width: 60em;
+      margin: auto;
+      }
+
+.site-content > header {
+      border-bottom: 2px solid;
+      }
+
+.site-title {
+      margin: 1.5em 0 0.5em 0;
+      padding: 0;
+      font-size: 2.8rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      display: inline-block;
+      }
+
+article {
+      margin: 1.75em 0;
+      }
+
+.cleaner:after {
+      display: block;
+      content: '';
+      clear: both;
+      }
+
+.align-right {
+      float: right;
+      margin: 0 0 1.5em 1.5em;
+      }
+
+.align-left {
+      float: left;
+      margin: 0 1.5em 1.5em 0;
+      }
+
+.section-img-wrapper {
+      z-index: 1;
+      display: block;
+      position: relative;
+      width: 10em;
+      height: 15em;
+      border: 3px solid #008583;
+      border-radius: 0.65em;
+      overflow: hidden;
+      box-shadow: 0 0 1px 0 white inset, 0.1em 0.2em 0.5em 0 rgba(0, 0, 0, 0.5);
+      }
+
+.section-img-wrapper:before {
+      z-index: 10;
+      width: 101%;
+      height: 101%;
+      display: block;
+      content: '';
+      border: #FCFCFC 7px solid;
+      border-radius: 0.7em;
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      transition: transform .2s;
+      }
+
+.section-img-wrapper img {
+      z-index: 0;
+      display: block;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      }
+
+

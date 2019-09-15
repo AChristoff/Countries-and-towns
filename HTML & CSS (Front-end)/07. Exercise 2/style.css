@@ -1,0 +1,20 @@
+.hello, li {
+    border: 1px dashed red;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.next {
+    border: 1px dashed blue;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Font Awsome 5 Free';
+    content: '\f5fc';
+    display: block;
+}

@@ -1,0 +1,55 @@
+html {
+      font: 16px/1.5 Verdana, sans-serif;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      }
+
+*, *:before, *:after {
+      font: inherit;
+      margin: inherit;
+      padding: inherit;
+      box-sizing: inherit;
+      }
+
+body {
+      background: rgb(238, 238, 238);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+section.container {
+      display: flex;
+      width: 80vw;
+      height: 22rem;
+      justify-content: space-evenly;
+      }
+
+div.card {
+      background: rgb(255, 255, 255);
+      box-shadow: 0 0 0.7em 0 rgba(0, 0, 0, 0.7);
+      border-radius: 1em;
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      flex: 0 1 8vw;
+      }
+
+div.master-card {
+      background: #000;
+      box-shadow: 0 0 0.7em 0 rgba(0, 0, 0, 0.7);
+      border-radius: 1em;
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      flex: 0 1 40vw;
+      }
+
+div img {
+      height: 100%;
+      width: auto;
+      }

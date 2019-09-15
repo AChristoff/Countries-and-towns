@@ -1,0 +1,78 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&text=1234567890");
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap');
+
+/*Reset.css*/
+
+*, *:before, *:after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+
+/*Typography.css*/
+
+html {
+      font: 16px/1.5 'Raleway', Helvetica, Verdana, sans-serif;
+      color: #091123;
+      background-color: #F7F7F7;
+      }
+
+body, form, input, option, select, table, th, td {
+      font: inherit;
+      }
+
+h1, h2, h3, h4, h5, h6 {
+      line-height: 1.1em;
+      margin: 0.3em 0 0.5em 0;
+      }
+
+h1 { font-size: 3.00rem; }
+
+h2 { font-size: 2.40rem; }
+
+h3 { font-size: 2.00rem; }
+
+h4 { font-size: 1.70rem; }
+
+h5 { font-size: 1.45rem; }
+
+h6 { font-size: 1.25rem; }
+
+p, ul, ol {
+      padding-bottom: 1.5em;
+      }
+
+ul, ol {
+      padding-left: 2em;
+      }
+
+li {
+      padding-left: 0.5em;
+      }
+
+ul ul, ul ol, ol ul, ol ol {
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      }
+
+blockquote {
+      padding: 1rem;
+      font-style: italic;
+      opacity: 0.5;
+      }
+
+blockquote .quote:before, blockquote .quote:after {
+      content: '"';
+      padding: 0 0.2em;
+      }
+
+blockquote .author {
+      text-align: right;
+      }
+
+blockquote .author:before {
+      display: inline-block;
+      content: "‒";
+      padding-right: 0.5em;
+      }
